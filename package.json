@@ -1,0 +1,23 @@
+{
+  "name": "proyectointegrador",
+  "version": "1.0.0",
+  "description": "Es un modelo de marketplace en el que se mezcla comercio electrónico y entretenimiento, busca conectar marcas, consumidores y creadores de contenido. The MarketPlace ofrece un servicio de venta de todo tipo de gama en algunas categorías de marcas de moda.La audiencia objetivo y propone una oferta personalizada a este publico objetivo, adicionalmente su desafío es conectar tres entornos: las marcas, los consumidores y los creadores de contenido.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gustavbz/grupo3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gustavbz/grupo3/issues"
+  },
+  "homepage": "https://github.com/gustavbz/grupo3#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
