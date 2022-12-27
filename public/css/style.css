@@ -1,0 +1,218 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    color:#FAF7EB;
+    font-family: 'Jost', sans-serif;;
+}
+
+header .menu-principal{
+    display: flex;
+    border: solid red;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+   
+}
+header .nav-list{
+    display: flex;
+}
+
+header .nav-list li{
+    text-decoration: none;
+    list-style: none;
+    margin-right: 15px;
+}
+header .nav-list li a{
+    text-decoration: none;
+    color: white;
+ }
+
+ .container-footer{
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+
+ }
+
+footer .datastore-container{
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 360px){
+    .menu-principal {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+ .container-categorys .product, .container-buy .item{
+    text-align: center;
+ }
+/*  main section img{
+    border-radius:
+ } */
+    section .container-categorys{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 10px;
+        background-color: #536D50;
+       
+    
+     }
+    section .container-buy{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 10px;
+        background-color: #536D50;
+
+    }
+    .container-buy .item{
+        background-color: #536D50;
+        padding: 10px;
+        border: solid red;
+    }
+
+
+    
+}
+
+@media (min-width: 769px){
+
+    .container-buy .container-categorys {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+     
+    }
+    main .container-buy .item{
+        width: 40%;
+    }
+    main .container-categorys .product{
+        width: 40%;
+    }
+  /*  main .container-categorys .container-buy{
+        border-top: solid #ebebeb 1px;
+        margin: 15px; 
+        background-color: white;
+        padding: 10px;
+        box-shadow: 0px 0px 10px rgb(58, 54, 54);
+        } */
+        
+      /*   .burger-menu{
+            display: none;
+        }
+
+        .{
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 0;
+        }
+        header nav .mercadoliebre{
+            width: 25%;
+        }
+
+        .header-title{
+            max-width: 350px;
+            text-align: right;
+            font-size: 24px;
+        }
+
+        .nav-menu{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .nav-menu ul{
+            display: flex;
+        }
+        .nav-menu li{
+           margin: 0 10px;
+        }
+
+        .container1, .container2 {
+            display: flex;
+            width: 100%;
+            flex-wrap: wrap;
+            justify-content: center;
+         
+        }
+        .item{
+            width: 40%;
+        }
+
+        .search{
+            display: flex;  
+            justify-content: center;
+            align-items: center;
+            }
+
+        header .search input{
+            border-radius: 4px;
+            max-width: 700px;
+            height: 20px;
+            border: #ebebeb;
+        }
+        
+     */
+    
+}
+
+@media (min-width: 1200px){
+    .menu-principal, .nav-list{
+        max-width: 1200px;
+        margin: auto;
+    }
+ }
+   /*  }
+    .container1, .container2 {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+     
+    }
+    .item{
+        width: 20%;
+    }
+
+    .search{
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+
+    }
+    header nav .mercadoliebre{
+        width: 40%;
+    }
+
+    .header-title{
+        font-size: 16px;
+        font-weight: normal;
+    }
+} */
