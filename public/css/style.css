@@ -64,41 +64,109 @@ footer .datastore-container{
         flex-wrap: wrap;
     }
     
- .container-categorys .product, .container-buy .item{
+ .container-categorys .product/* , .container-buy .item */{
     text-align: center;
  }
-/*  main section img{
-    border-radius:
- } */
+    
+    main .container-buy{
+        display: flex;
+        flex-wrap: nowrap;
+        overflow: scroll;
+        border: solid red;
+        padding: 5px;
+        background-color: #536D50;
+        align-items: center;
+        overflow-y: auto;
+      /*   display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 10px;
+        background-color: #536D50; */
+
+    }
+    main .container-buy .item{
+        flex: 1 0 auto;
+        gap: 5px;
+        border: solid rgb(70, 39, 39);
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+        width: 100%;
+        background-color: white;
+    }
+    main .container-buy img:hover{
+        box-shadow: 20px -20px 10px 10px rgba(14, 3, 3, 0.25);
+        border-radius: 10px;
+         }
+
     section .container-categorys{
         display: flex;
+        flex-wrap: nowrap;
+        overflow: scroll;
+        border: solid red;
+        padding: 5px;
+        background-color: #536D50;
+        align-items: center;
+        margin-bottom: 5px;
+       /*  display: flex;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
         width: 100%;
         padding: 10px;
         background-color: #536D50;
-       
+        */
+     }
+
+     section .container-categorys .product{
+        flex: 1 0 auto;
+        margin: 0 5px;
+        border: solid rgb(70, 39, 39);
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+        width: 100%;
+        background-color: black;
+     }
+
+     section h2, section p{
+        text-align: center;
+        padding: 5px;
+
+     }
+
+     footer .datastore-container{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        margin-top: 50px;
+     }
+     footer .datastore-container p{
+        font-size: 14px;
+        margin: 0 20px;
     
      }
-    section .container-buy{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        width: 100%;
+
+     footer .copyright{
+        margin-top: 100px;
+        font-size: 10px;
+        text-align: center;
         padding: 10px;
-        background-color: #536D50;
+        
+     }
 
-    }
-    .container-buy .item{
-        background-color: #536D50;
-        padding: 10px;
-        border: solid red;
-    }
+     footer .container-footer{
+        margin: 50px 0;
 
 
-    
+     }
+
+
+
 }
 
 @media (min-width: 769px){
