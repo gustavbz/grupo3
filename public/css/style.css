@@ -146,6 +146,21 @@ footer .datastore-container{
 }
 
 @media (min-width: 769px){
+    @keyframes pulsologo{
+        0%{
+            transform: scale(1);
+        }
+        50%{
+            transform: scale(1.1);
+        }
+        100%{
+            transform: scale(1);
+        }
+    }
+
+    .logo-market{
+        animation: pulsologo 2s infinite;
+    }
 
     header .search-bar{
         border: white;
@@ -165,8 +180,16 @@ footer .datastore-container{
     border-right: solid 1px black;
     font-size: 20px;
     padding-right: 5px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    transition: background-color 2s ,box-shadow 3s;
 
     }
+    
+   header .nav-list li:hover{
+        background-color: rgba(127, 30, 30, 0.2);
+        box-shadow: 0 8px 12px rgba(123, 82, 82, 0.2);
+    }
+
     .fa-search{
        display: none;
         
@@ -180,7 +203,7 @@ footer .datastore-container{
         padding: 10px;
         position: fixed;
         top: 0;
-        border: solid red;
+        /* border: solid red; */
      }
      body .banner{
         margin-top: 100px;
@@ -222,79 +245,33 @@ footer .datastore-container{
         align-items: flex-end;
         margin-top: 50px;
      }
-  /*  main .container-categorys .container-buy{
-        border-top: solid #ebebeb 1px;
-        margin: 15px; 
-        background-color: white;
-        padding: 10px;
-        box-shadow: 0px 0px 10px rgb(58, 54, 54);
-        } */
-        
-      /*   .burger-menu{
-            display: none;
-        }
-
-        .{
-            display: flex;
-            justify-content: space-between;
-            margin: 20px 0;
-        }
-        header nav .mercadoliebre{
-            width: 25%;
-        }
-
-        .header-title{
-            max-width: 350px;
-            text-align: right;
-            font-size: 24px;
-        }
-
-        .nav-menu{
-            display: flex;
-            justify-content: space-between;
-            margin-bottom: 20px;
-        }
-        .nav-menu ul{
-            display: flex;
-        }
-        .nav-menu li{
-           margin: 0 10px;
-        }
-
-        .container1, .container2 {
-            display: flex;
-            width: 100%;
-            flex-wrap: wrap;
-            justify-content: center;
-         
-        }
-        .item{
-            width: 40%;
-        }
-
-        .search{
-            display: flex;  
-            justify-content: center;
-            align-items: center;
-            }
-
-        header .search input{
-            border-radius: 4px;
-            max-width: 700px;
-            height: 20px;
-            border: #ebebeb;
-        }
-        
-     */
+  
     
 }
 
 @media (min-width: 1200px){
-    .menu-principal, .nav-list{
-        max-width: 1200px;
-        margin: auto;
+    header .menu-principal{
+        width: 100%;
+        text-align: center;
+        background-color: rgb(250, 247, 232, 0.4);
     }
- }
+    body .banner{
+        margin-top: 150px;
+        height: 500px;
+     }
+     main{
+        padding: 0 5px;
+     }
+
+     main .container-buy .item , section .container-categorys .product{
+        margin-right: 20px ;
+    }
+    main .container-buy, section .container-categorys{
+        overflow: none;
+     }
+
+
+    }
    /*  }
     .container1, .container2 {
         display: flex;
