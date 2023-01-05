@@ -5,11 +5,12 @@
 }
 
 body{
-    background-color: white;
+    background-color: #536D50;
     color: black;
     font-family: 'Jost', sans-serif;
     padding: 10px;
 }
+
 
 header .menu-principal{
     display: flex;
@@ -48,14 +49,12 @@ main .container-buy, section .container-categorys{
 main .container-buy .item , section .container-categorys .product{
     flex: 1 0 auto;
     margin-right: 5px;
-   /*  border-radius: 10px; */
-    /* border: solid rgb(70, 39, 39);  */
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     text-align: center;
     width: 100%;
-    background-color: white;
+    background-color: #FAF7E8;
     box-shadow: 4px -4px 3px 0px rgba(10, 1, 1, 0.25);  
 }
 
@@ -80,14 +79,6 @@ footer .datastore-container{
 }
 
 
-
-
-
-
-
-
-
-
 @media (min-width: 360px){
    /*  .menu-principal {
         display: flex;
@@ -95,6 +86,9 @@ footer .datastore-container{
         align-items: center;
         flex-wrap: wrap;
     } */
+    p{
+        font-size: 13px;
+    }
 
     main .section-categories{
         margin: 50px 0;
@@ -140,18 +134,18 @@ footer .datastore-container{
         padding-bottom: 5px;
      }
 
-
-
-
 }
 
 @media (min-width: 769px){
+    p{
+        font-size: 17px;
+    }
     @keyframes pulsologo{
         0%{
             transform: scale(1);
         }
         50%{
-            transform: scale(1.1);
+            transform: scale(1.05);
         }
         100%{
             transform: scale(1);
@@ -203,6 +197,8 @@ footer .datastore-container{
         padding: 10px;
         position: fixed;
         top: 0;
+        left: 0;
+        z-index: 10;
         /* border: solid red; */
      }
      body .banner{
@@ -211,7 +207,6 @@ footer .datastore-container{
 
     main .container-buy .item , section .container-categorys .product{
         flex: 1 0 auto;
-        margin-right: 5px;
         border-radius: 15px;
        /* border: solid rgb(70, 39, 39);  */
         align-items: center;
@@ -221,13 +216,25 @@ footer .datastore-container{
         width: 100%;
         background-color: white;
         box-shadow: 4px -4px 3px 0px rgba(10, 1, 1, 0.25);  
+        margin: 10px;
+        padding: 10px;
+        scale: 1;
+        transition: scale 1s, box-shadow 1s;
     }
+
+     .container-buy .item:hover , .container-categorys .product:hover{
+        scale: 1.05;
+        box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+
+    }
+
     main .container-buy, section .container-categorys{
         display: flex;
         flex-wrap: wrap;
         padding: 5px;
         align-items: center;
         margin: 20px 0;
+        overflow: none; /* quitar scroll */
      }
     
     main .container-buy .item{
@@ -245,29 +252,39 @@ footer .datastore-container{
         align-items: flex-end;
         margin-top: 50px;
      }
+
+     p{
+        font-size: 100%;
+     }
   
     
 }
 
 @media (min-width: 1200px){
+
+    p {
+        font-size: 24px;
+    }
+    footer .datastore-container p{
+        font-size: 18px;
+    }
     header .menu-principal{
         width: 100%;
         text-align: center;
-        background-color: rgb(250, 247, 232, 0.4);
+        background-color: rgb(250, 247, 232, 0.2);
     }
-    body .banner{
+         body .banner{
         margin-top: 150px;
-        height: 500px;
-     }
-     main{
+     } 
+    /*  main{
         padding: 0 5px;
-     }
+     } */
 
-     main .container-buy .item , section .container-categorys .product{
+    /*  main .container-buy .item , section .container-categorys .product{
         margin-right: 20px ;
-    }
+    } */
     main .container-buy, section .container-categorys{
-        overflow: none;
+        overflow: hidden;
      }
 
 
