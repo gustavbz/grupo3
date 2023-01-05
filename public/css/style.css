@@ -5,12 +5,11 @@
 }
 
 body{
-    background-color: #536D50;
+    background-color: rgb(83, 109, 80, .7);
     color: black;
     font-family: 'Jost', sans-serif;
     padding: 10px;
 }
-
 
 header .menu-principal{
     display: flex;
@@ -99,10 +98,13 @@ footer .datastore-container{
     text-align: center;
  }
 
-     section h2, section p{
+     section h2, section p, main h2{
         text-align: center;
         padding: 5px;
 
+     }
+     main h2{
+        margin-top: 30px;
      }
 
      footer .datastore-container{
@@ -138,7 +140,7 @@ footer .datastore-container{
 
 @media (min-width: 769px){
     p{
-        font-size: 17px;
+        font-size: 16px;
     }
     @keyframes pulsologo{
         0%{
@@ -206,13 +208,10 @@ footer .datastore-container{
      }
 
     main .container-buy .item , section .container-categorys .product{
-        flex: 1 0 auto;
+        display:flex;
+        flex-direction: column;
         border-radius: 15px;
-       /* border: solid rgb(70, 39, 39);  */
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
-        text-align: center;
+        justify-content: space-around;
         width: 100%;
         background-color: white;
         box-shadow: 4px -4px 3px 0px rgba(10, 1, 1, 0.25);  
@@ -231,8 +230,10 @@ footer .datastore-container{
     main .container-buy, section .container-categorys{
         display: flex;
         flex-wrap: wrap;
+        align-items: stretch;
+        height: 70%;
         padding: 5px;
-        align-items: center;
+       /*  align-items: center; */
         margin: 20px 0;
         overflow: none; /* quitar scroll */
      }
@@ -243,6 +244,15 @@ footer .datastore-container{
     main .container-categorys .product{
         width: 40%;
     }
+    
+    div .description1, div .description2, div .description3{
+        visibility: hidden;
+        transition: display 1s;
+     }
+      .item:hover .description1, .item:hover .description2, .item:hover .description3{
+      visibility: visible;
+     }
+
 
     
      footer .datastore-container{
@@ -253,17 +263,25 @@ footer .datastore-container{
         margin-top: 50px;
      }
 
-     p{
-        font-size: 100%;
-     }
-  
-    
 }
 
 @media (min-width: 1200px){
 
+    main{
+        padding: 100px;
+    }
+
+
+     div .description1, div .description2, div .description3{
+        visibility: hidden;
+        transition: display 1s;
+     }
+      .item:hover .description1, .item:hover .description2, .item:hover .description3{
+      visibility: visible;
+     }
+
     p {
-        font-size: 24px;
+        font-size: 23px;
     }
     footer .datastore-container p{
         font-size: 18px;
@@ -283,12 +301,124 @@ footer .datastore-container{
     /*  main .container-buy .item , section .container-categorys .product{
         margin-right: 20px ;
     } */
-    main .container-buy, section .container-categorys{
+    main .container-buy, section .container-categorys{ /* modificar contenedores */
         overflow: hidden;
+        display: flex;
+        align-items: stretch;
+
      }
+     main .container-buy .item , section .container-categorys .product{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
 
 
     }
+    }
+
+    @media (min-width: 1380px){
+
+        main{
+            padding: 0 150px;
+            background-color: rgb(250, 247, 232, 0.2);
+            margin-bottom: 100px;
+        }
+
+        footer{
+            padding: 150px;
+        }
+
+        div .description1, div .description2, div .description3{
+           visibility: hidden;
+           transition: display 1s;
+        }
+         .item:hover .description1, .item:hover .description2, .item:hover .description3{
+         visibility: visible;
+        }
+   
+       p {
+           font-size: 23px;
+       }
+       footer .datastore-container p{
+           font-size: 18px;
+       }
+       header .menu-principal{
+           width: 100%;
+           text-align: center;
+           background-color: rgba(235, 233, 225, 0.699);
+       }
+            body .banner{
+           margin-top: 150px;
+        } 
+       /*  main{
+           padding: 0 5px;
+        } */
+   
+       /*  main .container-buy .item , section .container-categorys .product{
+           margin-right: 20px ;
+       } */
+       main .container-buy, section .container-categorys{ /* modificar contenedores */
+           overflow: hidden;
+           display: flex;
+           align-items: stretch;
+   
+        }
+        main .container-buy .item , section .container-categorys .product{
+           display: flex;
+           flex-direction: column;
+           justify-content: flex-start;
+           align-items: center;
+           width: 20%;
+   
+   
+       }
+       main .container-buy .item{
+        width: 20%;
+       }
+
+
+       .testimonials {
+        display: flex;
+        overflow-x: auto;
+        white-space: nowrap;
+      }
+      
+      .testimonial {
+        flex: 0 0 auto;
+        width: 30%;
+        margin-right: 20px;
+      }
+      
+      .testimonial:last-of-type {
+        margin-right: 0;
+      }
+      
+      .testimonials-nav {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+      
+      .testimonials-nav button {
+        background: none;
+        border: none;
+        font-size: 1.5rem;
+        color: #333;
+        cursor: pointer;
+        transition: color 0.3s;
+      }
+      
+      .testimonials-nav button:hover {
+        color: #666;
+      }
+      
+      .testimonials-nav button:disabled {
+        color: #ccc;
+        cursor: default;
+      }
+       }
+      
    /*  }
     .container1, .container2 {
         display: flex;
