@@ -43,6 +43,7 @@ main .container-buy, section .container-categorys{
     align-items: center;
     overflow-y: auto;
     margin: 20px 0;
+    height: 70%;
 
 }
 main .container-buy .item , section .container-categorys .product{
@@ -321,7 +322,7 @@ footer .datastore-container{
 
         main{
             padding: 0 150px;
-            background-color: rgb(250, 247, 232, 0.2);
+            background-color: rgb(250, 247, 232, 0.3);
             margin-bottom: 100px;
         }
 
@@ -377,47 +378,7 @@ footer .datastore-container{
         width: 20%;
        }
 
-
-       .testimonials {
-        display: flex;
-        overflow-x: auto;
-        white-space: nowrap;
-      }
-      
-      .testimonial {
-        flex: 0 0 auto;
-        width: 30%;
-        margin-right: 20px;
-      }
-      
-      .testimonial:last-of-type {
-        margin-right: 0;
-      }
-      
-      .testimonials-nav {
-        display: flex;
-        align-items: center;
-        margin-bottom: 20px;
-      }
-      
-      .testimonials-nav button {
-        background: none;
-        border: none;
-        font-size: 1.5rem;
-        color: #333;
-        cursor: pointer;
-        transition: color 0.3s;
-      }
-      
-      .testimonials-nav button:hover {
-        color: #666;
-      }
-      
-      .testimonials-nav button:disabled {
-        color: #ccc;
-        cursor: default;
-      }
-       }
+ }
       
    /*  }
     .container1, .container2 {
