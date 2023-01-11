@@ -12,7 +12,7 @@
 </head>
 <body>
     <header>
-        <nav class="menu-principal"><img class="logo-market" src="/public/images/logo-market.svg" alt="logo" width="8%">
+        <nav class="menu-principal"><img class="logo-market" src="/images/logo-market.svg" alt="logo" width="8%">
             <div class="search"><input class="search-bar" type="text" placeholder="Buscar"><i class="fas fa-search"></i></div>
             <ul class="nav-list">
              <li><a href="/home">Home</a></li>
@@ -26,31 +26,44 @@
 
     <main>
         <div class="product-detail"> 
-            <div><img src="/images/rosaparfum.jpg" alt="" width="50%"></div>
+            <div class="div-img"><img src="/images/aceite.jpg" width="70%"></div>
             <div>
-                <h2>Coconut oeil</h2>
-                <h4>$599</h4>
-                
+                <h2 class="product-name">Coconut oeil</h2>
+                <h4 class="product-price">$599</h4>
                 <p class="product-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti a repudiandae, obcaecati quia atque blanditiis ipsum quidem voluptate nemo accusamus eligendi animi, vitae ullam repellendus saepe velit dignissimos odio possimus?</p>
-                <br>
-
+                    <div class="product-cantidad">
+                        <label for="cantidad">Cantidad:</label><br>
+                        <input class="quantity" type="number" id="cantidad" name="cantidad"  min="1" max="10">
+                        <button type="submit">Anadir al carrito</button>
+                    </div>
             </div>
-                <div class="product-cantidad">
-                    <label for="cantidad">Cantidad:</label><br>
-                    <input class="qantity" name="cantidad" type="number" min="1">
-               
-                    <button type="submit">Anadir al carrito</button>
-                </div>
-
-
         </div>
-
-
+        
+       <!--  <div class="recomendedProduct">
+            <div><h3>Productos recomendados</h3></div>
+            <div class="recomendedProductMain">
+                <div class="recomendedProduct1">
+                    <p>Cepillos dentales</p>
+                    <img src="/images/cepillosdentales.jpg">
+                </div>
+                <div class="recomendedProduct2">
+                    <p>Hogar</p>
+                    <img src="/images/hogar.jpg">
+                </div>
+                <div class="recomendedProduct3">
+                    <p>Electronica</p>
+                    <img src="/images/electronica.jpg">
+                </div>
+                <div class="recomendedProduct4">
+                    <p>Jabones</p>
+                    <img src="/images/jabonliquido.jpg">
+                </div>
+            </div>
+        </div> -->
     </main>
     <section>
-       
-      </section>
-      
+    
+    </section>
 
     <footer>
         <div class="container-footer">
