@@ -1,0 +1,114 @@
+main .car-principal{
+display: flex;
+flex-direction: column;
+/* border: solid red 1px; */
+height: 500px;
+background-color: whitesmoke;
+border-radius: 10px;
+padding: 10px;
+flex-wrap: wrap;
+justify-content: space-around;
+box-shadow: 0px 0px 10px rgb(58, 54, 54);
+}
+.div-car-img{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    padding: 10px;
+   /*  border: solid red 1px; */
+    max-height: 100%;
+}
+.div-car-img img{
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(58, 54, 54);
+}
+.product-cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: solid red 1px; */
+    border-bottom: solid grey 1px;
+    height: 150px;
+    margin-bottom: 5px;
+}
+.detail-cart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: solid red 1px; */
+    width: 50%;
+   
+}
+
+.car-instructions{
+   /*  border: solid red 1px; */
+    text-align: center;
+    border-bottom: solid grey 1px;
+}
+
+.product-total{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   /*  border: solid red 1px; */
+    height: 120px;
+    justify-content: flex-end;
+}
+.product-total button{
+    height: 40px;
+    width: 80px;
+    background-color: green;
+    border-radius: 5px;
+}
+
+textarea{
+    border-radius: 10px;
+}
+
+@media (min-width: 769px){
+    main .car-principal{
+        height: 500px;
+        width: 80%;
+        margin: auto;
+    }
+    .product-cart{
+        height: 200px;
+    }
+}
+
+@media (min-width: 1200px){
+    main .car-principal{
+        height: 650px;
+        width: 100%;
+        margin: auto;
+        border: none;
+    }
+
+    .detail-cart{
+        width: 200px;
+    }
+
+    .product-cart{
+        justify-content: space-around;
+        align-items: center;
+        height: 220px;
+    }
+    .product-total{
+        justify-content: flex-end;
+    }
+
+}
+@media (min-width: 1380px){
+    main{
+        margin-bottom: 20px;
+    }
+    main .car-principal{
+        height: 600px;
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+}
