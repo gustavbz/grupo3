@@ -1,70 +1,98 @@
 main .product-detail{
     display: flex;
-    flex-direction: column;
-    border: solid black 1px;
+    border-radius: 10px;
     padding: 10px;
-    text-align: center;
-    height: 500px;
+    height: 350px;
     background-color: white;
-    margin-top: 20px;
+    margin-top: 60px;
     width: 100%;
     overflow: hidden;
-}
-.product-description{
-    padding: 10px;
-}
+    justify-content: center;
+    flex: wrap;
+    box-shadow: 0px 0px 10px rgb(58, 54, 54);
+ }
 
-
-.product-detail button{
-background-color: rgb(55, 146, 75);
-height: 30px;
-padding: 5px;
-border: none;
-border-radius: 3px;
-
-
-}
-.product-detail img{
-    border-radius: 5px;
-    text-align: center;
+ div .div-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
     
-}
-.product-cantidad{
+ }
+ .div-img img{
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgb(58, 54, 54);
+    width: 100%;
+    border-right: solid grey 1px;
+ }
+
+ .quantity{
+    width: 40px;
+    height: 25px;
+ }
+ .product-cantidad{
+    height: 100px;
     display: flex;
     justify-content: center;
-    gap: 5px;
-    border: solid black 1 px;
-    height: 300px;
-    width: 100%;
-    
-}
-.product-cantidad input{
-    height: 30px;
-    width: 30px;
-}
+    align-items: center;
+ }
+ 
+ .product-cantidad button{
+    background-color: rgb(78, 123, 78);
+    height: 40px;
+    border-radius: 5px;
+    margin-left: 5px;
+ }
+ .product-cantidad label{
+    margin-right: 5px;
+ }
 
-
-
+ .product-price{
+    text-align: center;
+ }
+ 
 @media (min-width: 769px){
     main .product-detail{
-        height: 550px;
-        width: 50%;
+        height: 350px;
+        width: 75%;
         margin: auto;
-    
-       
     }
-
+    main{
+        margin-top: 30px;
+    }
     .product-detail img{
         border-radius: 15px;
     }
-
 }
-
 @media (min-width: 1200px){
+    main .product-detail{
+        height: 370px;
+        width: 80%;
+        margin-top: -100px;
+    }
+
+    .div-img{
+        border-right: solid grey 1px;
+        margin-right: 40px;
+        padding: 10px;
+    }
+
+    .div-img img{
+        width: 100%;
+    }
 
 }
-
 @media (min-width: 1380px){
-
+    main{
+       /*  display: flex; */
+        padding: 50px;
+     /*    justify-content: space-around; */
+    }
+    main .product-detail{
+        height: 390px;
+        width: 50%;
+        margin-top: 40px;
+    }
 
 }
