@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@1,300;1,400&family=Roboto&family=Unbounded:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/login.css">
+    <link rel="stylesheet" href="/css/productDetail.css">
 </head>
 <body>
     <header>
@@ -17,7 +17,7 @@
             <ul class="nav-list">
              <li><a href="/home">Home</a></li>
              <li><a href="/register">Registrate</a></li>
-             <li><a href="/login">Cuenta</a></li>
+             <li><a href="/login">Login</a></li>
              <li><a href="#">Carrito</a><i class="fas fa-cart-plus"></i></li>
             </ul>
         </nav>
@@ -25,55 +25,29 @@
     <img class="banner" src="/images/banneroff.gif" alt="banner" width="100%">
 
     <main>
-               
-            <form class="form-login" action="" method="get">
-                <legend>Inicia sesion</legend><br>
-                <label for="Usuario">E-mail</label>
-                <input type="text" id="Usuario" placeholder="Usuario"> <br>
-                <label for="password">Password</label>
-                <input type="password" id="password" placeholder="password" required>
-                 <br>
+        <div class="product-detail"> 
+            <div><img src="/images/rosaparfum.jpg" alt="" width="50%"></div>
+            <div>
+                <h2>Coconut oeil</h2>
+                <h4>$599</h4>
                 
+                <p class="product-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti a repudiandae, obcaecati quia atque blanditiis ipsum quidem voluptate nemo accusamus eligendi animi, vitae ullam repellendus saepe velit dignissimos odio possimus?</p>
+                <br>
 
-                <button type="submit">LOGIN</button>
-
-
-
-            </form>
-
-       
-        
-        <section class="section-categories">
-            <h2>CATEGORIAS</h2>
-        <p>"¡Bienvenidos a nuestra sección de categorías! En esta sección, encontrarás todos nuestros productos organizados por temas y categorías para que puedas encontrar fácilmente lo que necesitas. Desde artículos para el hogar y cuidado personal, tenemos una amplia variedad de productos para todas tus necesidades. ¡Echa un vistazo a nuestras categorías y comienza a hacer tus compras hoy mismo!"</p>
-        <br>
-        
-    <div  class="container-categorys"> <!-- 640x800 dimension de imagenes -->
-
-            <div class="product">
-            <h2>Salud</h2><br>
-            <img src="/images/salud.jpg" alt="imagen" width="50%">
             </div>
-
-            <div class="product">
-            <h2>Cuidado Personal</h2><br>
-            <img src="/images/productos.jpg" alt="imagen" width="50%">
-            </div>
-
-            <div class="product">
-            <h2>Limpieza</h2><br>
-            <img src="/images/limpieza.jpg" alt="imagen" width="50%">
-            </div>
-            <div class="product">
-            <h2>Hogar</h2><br>
-            <img src="/images/hogar.jpg" alt="imagen" width="50%">
+                <div class="product-cantidad">
+                    <label for="cantidad">Cantidad:</label><br>
+                    <input class="qantity" name="cantidad" type="number" min="1">
+               
+                    <button type="submit">Anadir al carrito</button>
                 </div>
-    </div>
-        </section>
+
+
+        </div>
+
 
     </main>
     <section>
-        <h2>Testimonios</h2>
        
       </section>
       
