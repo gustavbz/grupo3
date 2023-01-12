@@ -9,6 +9,7 @@ body{
     color: black;
     font-family: 'Jost', sans-serif;
     padding: 10px;
+    z-index: 1;
 }
 
 header .menu-principal{

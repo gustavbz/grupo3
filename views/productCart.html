@@ -1,23 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The MarketPlace</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
-    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@1,300;1,400&family=Roboto&family=Unbounded:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@1,300;1,400&family=Roboto&family=Unbounded:wght@300&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/productCart.css">
 </head>
+
 <body>
     <header>
         <nav class="menu-principal"><img class="logo-market" src="/images/logo-market.svg" alt="logo" width="8%">
-            <div class="search"><input class="search-bar" type="text" placeholder="Buscar"><i class="fas fa-search"></i></div>
+            <div class="search"><input class="search-bar" type="text" placeholder="Buscar"><i class="fas fa-search"></i>
+            </div>
             <ul class="nav-list">
-             <li><a href="/home">Home</a></li>
-             <li><a href="/register">Registrate</a></li>
-             <li><a href="/login">Login</a></li>
-             <li><a href="#">Carrito</a><i class="fas fa-cart-plus"></i></li>
+                <li><a href="/home">Home</a></li>
+                <li><a href="/register">Registrate</a></li>
+                <li><a href="/login">Cuenta</a></li>
+                <li><a href="/carrito">Carrito</a><i class="fas fa-cart-plus"></i></li>
             </ul>
         </nav>
     </header>
@@ -25,18 +33,104 @@
 
     <main>
 
+        <div class="product-cart" action="" method="get">
+            <h2>Tu carrito</h2>
+            <div class="contProducts">
+                <div class="item">
+                    <img class="itemImg" src="/images/aceite.jpg"/>
+                    <a>
+                        Aceite
+                    </a>
+                    <a>Total: 200</a>
+                    <a>Cantidad: 1</a>
+                    <div class="contAdd">
+                        <img class="add" src="/images/cart/menos.png" />
+                        <img class="add" src="/images/cart/mas.png" />
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="itemImg" src="images/cepillosdentales.jpg"/>
+                    <a>
+                        Cepillos Dentales
+                    </a>
+                    <a>Total: 200</a>
+                    <a>Cantidad: 2</a>
+                    <div class="contAdd">
+                        <img class="add" src="/images/cart/menos.png" />
+                        <img class="add" src="/images/cart/mas.png" />
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="itemImg" src="/images/jabonliquido.jpg"/>
+                    <a>
+                        Jabon Liquido
+                    </a>
+                    <a>Total: 200</a>
+                    <a>Cantidad: 3</a>
+                    <div class="contAdd">
+                        <img class="add" src="/images/cart/menos.png" />
+                        <img class="add" src="/images/cart/mas.png" />
+                    </div>
+                </div>
+            </div>
+            <div class="pay">
+                <button id="cancelFinish" type="button" >
+                    Cancelar
+                </button>
+                <button id="payFinish" type="button">
+                    Pagar
+                </button>
+                <a id="totalPrice">Total pagar: 600</a>
+            </div>
+        </div>
+
+
+
+        <section class="section-categories">
+            <h2>CATEGORIAS</h2>
+            <p>"¡Bienvenidos a nuestra sección de categorías! En esta sección, encontrarás todos nuestros productos
+                organizados por temas y categorías para que puedas encontrar fácilmente lo que necesitas. Desde
+                artículos para el hogar y cuidado personal, tenemos una amplia variedad de productos para todas tus
+                necesidades. ¡Echa un vistazo a nuestras categorías y comienza a hacer tus compras hoy mismo!"</p>
+            <br>
+
+            <div class="container-categorys"> <!-- 640x800 dimension de imagenes -->
+
+                <div class="product">
+                    <h2>Salud</h2><br>
+                    <img src="/images/salud.jpg" alt="imagen" width="50%">
+                </div>
+
+                <div class="product">
+                    <h2>Cuidado Personal</h2><br>
+                    <img src="/images/productos.jpg" alt="imagen" width="50%">
+                </div>
+
+                <div class="product">
+                    <h2>Limpieza</h2><br>
+                    <img src="/images/limpieza.jpg" alt="imagen" width="50%">
+                </div>
+                <div class="product">
+                    <h2>Hogar</h2><br>
+                    <img src="/images/hogar.jpg" alt="imagen" width="50%">
+                </div>
+            </div>
+        </section>
 
     </main>
     <section>
         <h2>Testimonios</h2>
-       
-      </section>
-      
+
+    </section>
+
 
     <footer>
         <div class="container-footer">
             <h2>Nuestra Tienda</h2>
-            <p>Nos enorgullece ofrecer productos de alta calidad que no solo son beneficiosos para nuestros clientes, sino también para el medio ambiente. Si estás interesado en hacer un cambio positivo en el mundo y en tu vida diaria, echa un vistazo a nuestra selección de productos sostenibles y únete a nuestra misión de hacer del mundo un lugar mejor. ¡Esperamos verte pronto en nuestra tienda!</p>
+            <p>Nos enorgullece ofrecer productos de alta calidad que no solo son beneficiosos para nuestros clientes,
+                sino también para el medio ambiente. Si estás interesado en hacer un cambio positivo en el mundo y en tu
+                vida diaria, echa un vistazo a nuestra selección de productos sostenibles y únete a nuestra misión de
+                hacer del mundo un lugar mejor. ¡Esperamos verte pronto en nuestra tienda!</p>
         </div>
 
         <hr size="1px">
@@ -45,18 +139,21 @@
             <p> <i class="fas fa-map-marker"></i><br>
                 Edificio Corporativo. Ruta Panamericana Km 36, Tortuguitas, Pcia. de Buenos Aires.</p>
             <p><i class="fab fa-facebook-f"></i><br><i class="fab fa-instagram"></i><br>
-                <i class="fab fa-linkedin"></i></p>
-           
+                <i class="fab fa-linkedin"></i>
+            </p>
+
         </div>
 
 
 
-        <p class="copyright">© Copyright 2018 World Wide Marketing, Copyright Registration Online provides information and software only.</p>
+        <p class="copyright">© Copyright 2018 World Wide Marketing, Copyright Registration Online provides information
+            and software only.</p>
 
 
-        
+
     </footer>
-    
-    
+
+
 </body>
+
 </html>
