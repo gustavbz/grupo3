@@ -291,7 +291,7 @@ footer .datastore-container{
     header .menu-principal{
         width: 100%;
         text-align: center;
-        background-color: rgb(250, 247, 232, 0.2);
+        background-color: rgb(250, 247, 232, 0.1);
     }
          body .banner{
         margin-top: 150px;
@@ -348,7 +348,8 @@ footer .datastore-container{
        header .menu-principal{
            width: 100%;
            text-align: center;
-           background-color: rgba(235, 233, 225, 0.699);
+           background-color: rgb(250, 247, 232, 0.1);
+           border-radius: 5px;
        }
             body .banner{
            margin-top: 150px;
