@@ -19,3 +19,31 @@
  
 
  -->
+
+ # SPRINT 02
+
+ ## START DOING: EMPEZAR A.-  (HACER INNOVACIÓN Y COSAS A PROBAR)
+
+1.  Colaborar en el código a través de ramas individuales (Alecsandra, Diana, Francisco, Gustavo e Ignacio)  hacia la rama de desarrollo (dev) para que posteriormente se integre a main.
+
+## MORE OF: HACER MAS.- (PRACTICAS QUE REQUIEREN MAS REFINAMIENTO)
+
+1.  Refinar la planificación del sprint, para agilizar y equilibrar las consignas asignadas considerando las habilidades mostradas por el equipo.
+
+2.  Practicar el uso de git, para incrementar confianza en su uso y agilizar la aportación de código al repositorio.
+
+## KEEP DOING: CONTINUAR HACIENDO.- (PRACTICAS QUE VENIMOS HACIENDO Y NO SERÁ PREOCUPACIÓN MEJORARLO)
+
+1. Identificación de habilidades de equipo:
+    *   Habilidad para el código: Gustavo, Alecsandra.
+    *   Habilidad para lo estético: Francisco
+    *   Habilidad para lo organizativo: Diana
+
+## LESS OF: HACER MENOS.- (PRACTICAS QUE INTENTAMOS PERO NO DAN TANTO BENEFICIO)
+
+1. Hasta ahora las practicas que hemos haciendo nos han aportado un beneficio, ya sea para aprender del error o para refinar las que funcionan.
+
+## STOP DOING: DEJAR DE HACER (PRACTICAS QUE NO DAN VALOR O NO GUSTAN)
+
+1. Colaborar de forma remota sin realizar reuniones.
+
