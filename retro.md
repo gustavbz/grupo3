@@ -1,4 +1,6 @@
-<!-- SPRINT 1 -->
+# RETROSPECTIVA DE EQUIPO
+
+## SPRINT 1 
 
 <!-- 
 1.- Que hicimos bien?
@@ -20,30 +22,30 @@
 
  -->
 
- # SPRINT 02
+ ## SPRINT 02
 
- ## START DOING: EMPEZAR A.-  (HACER INNOVACIÓN Y COSAS A PROBAR)
+ ### START DOING: EMPEZAR A.-  (Hacer innovación y cosas a probar)
 
 1.  Colaborar en el código a través de ramas individuales (Alecsandra, Diana, Francisco, Gustavo e Ignacio)  hacia la rama de desarrollo (dev) para que posteriormente se integre a main.
 
-## MORE OF: HACER MAS.- (PRACTICAS QUE REQUIEREN MAS REFINAMIENTO)
+### MORE OF: HACER MAS.- (Prácticas que requieren más refinamiento)
 
 1.  Refinar la planificación del sprint, para agilizar y equilibrar las consignas asignadas considerando las habilidades mostradas por el equipo.
 
 2.  Practicar el uso de git, para incrementar confianza en su uso y agilizar la aportación de código al repositorio.
 
-## KEEP DOING: CONTINUAR HACIENDO.- (PRACTICAS QUE VENIMOS HACIENDO Y NO SERÁ PREOCUPACIÓN MEJORARLO)
+### KEEP DOING: CONTINUAR HACIENDO.- (Prácticas que venimos haciendo y no serán preocupación mejorarlo)
 
 1. Identificación de habilidades de equipo:
     *   Habilidad para el código: Gustavo, Alecsandra.
     *   Habilidad para lo estético: Francisco
     *   Habilidad para lo organizativo: Diana
 
-## LESS OF: HACER MENOS.- (PRACTICAS QUE INTENTAMOS PERO NO DAN TANTO BENEFICIO)
+### LESS OF: HACER MENOS.- (Prácticas que intentamos pero no dan tanto beneficio)
 
-1. Hasta ahora las practicas que hemos haciendo nos han aportado un beneficio, ya sea para aprender del error o para refinar las que funcionan.
+1. Hasta ahora las practicas que hemos estado haciendo nos han aportado un beneficio, ya sea para aprender del error o para refinar las que funcionan.
 
-## STOP DOING: DEJAR DE HACER (PRACTICAS QUE NO DAN VALOR O NO GUSTAN)
+### STOP DOING: DEJAR DE HACER (Prácticas que no aportan valor o no nos gustan)
 
-1. Colaborar de forma remota sin realizar reuniones.
+1. Colaborar de forma remota sin realizar reuniones, aún nos estamos integrando como equipo y consideramos inicialmente comenzar a realizar las actividades sin reuniones remotas, sin embargo, nos hizo falta mayor comunicación, por lo que se buscará tener una reunión inicial del sprint para entrar en contexto y planificar el sprint y las reuniones a realizar en el sprint.
 
