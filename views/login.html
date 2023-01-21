@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@1,300;1,400&family=Roboto&family=Unbounded:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/login.css">
 </head>
 <body>
     <header>
@@ -16,7 +17,7 @@
             <ul class="nav-list">
              <li><a href="/home">Home</a></li>
              <li><a href="/register">Registrate</a></li>
-             <li><a href="/login">Login</a></li>
+             <li><a href="/login">Cuenta</a></li>
              <li><a href="/carrito">Carrito</a><i class="fas fa-cart-plus"></i></li>
             </ul>
         </nav>
@@ -24,33 +25,23 @@
     <img class="banner" src="/images/banneroff.gif" alt="banner" width="100%">
 
     <main>
-        <h2>OFERTAS</h2>
-        <section class="container-buy">
-            <div class="item"> 
-                    <h2>Bambu Brush (Cepillo Bambu)</h2>
-                    <em>$52</em><!-- 640*433 px images -->
-                    <p class="description1"> Fabricado con bambú biodegradable y  reciclado.</p> 
-                    <a href="#"><img src="/images/cepillosdentales.jpg" alt="imagen" width="70%"></a>
-                   
-            </div>   
-                <div class="item">
-                        <h2>"Green Suds" (Jabón Verde)</h2>
-                        <em>$52</em>
-                        <p class="description2">Hecho con ingredientes naturales y sin productos químicos tóxicos</p>
-                        <a href="#"><img src="/images/jabones.jpg" alt="imagen" width="70%"></a>
-                </div> 
-                <div class="item">
-                        <h2>Aloe vera and coconut</h2>
-                        <em>$110</em>
-                        <p class="description3">Fabricado utilizando ingredientes naturales y biodegradables.</p>
-                        <a href="#"><img src="/images/jabonliquido.jpg" alt="imagen" width="70%"> </a>
-                </div>
                
-        </section>
+            <form class="form-login" action="" method="get">
+                <legend>Inicia sesion</legend><br>
+                <label for="Usuario">E-mail</label>
+                <input type="text" id="Usuario" placeholder="Usuario"> <br>
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="password" required>
+                 <br>
+                
 
-        <hr size="2px">
+                <button type="submit">LOGIN</button>
 
 
+
+            </form>
+
+       
         
         <section class="section-categories">
             <h2>CATEGORIAS</h2>
