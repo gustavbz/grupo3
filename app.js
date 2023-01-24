@@ -3,9 +3,9 @@ const app = express();
 const path = require("path");
 app.use(express.static("public"));
 const publicPath = path.resolve(__dirname, "./public");
-const rutas = require("./scr/routes/main");
+const rutas = require("./src/routes/main");
 app.set("view engine", "ejs");
-
+app.set("views", path.join(__dirname, "./src/views")); //
 
 
 app.use(rutas);
