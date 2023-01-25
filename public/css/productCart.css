@@ -136,10 +136,14 @@
 
 @media (min-width: 1380px){
     .product-cart{ 
-        margin-top: 50px;
+        margin-top: 100px;
         background-color: transparent;
         padding-top: 60px;
         border-bottom: solid 1px white;
         padding-bottom: 200px;
+    }
+
+    .banner{
+        display: none;
     }
 }
