@@ -21,5 +21,4 @@ const register = (req, res) => {
     login,
     productCart,
     register
-
  };
