@@ -13,6 +13,9 @@ const productCart = (req, res) => {
 const register = (req, res) => {
     res.render("register");
     };
+const createAndEditProduct = (req, res) => {
+    res.render("createAndEditProduct");
+    };
     
 /* res.sendFile(path.join(__dirname, '../views', 'login.html')); */
 
@@ -20,6 +23,7 @@ const register = (req, res) => {
     index,
     login,
     productCart,
-    register
+    register,
+    createAndEditProduct
 
  };
