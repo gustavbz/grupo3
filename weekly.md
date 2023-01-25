@@ -148,34 +148,34 @@
 
 #### Actividades realizadas hasta hoy
 
-1. @Alecs0303: 
+1.  @Alecs0303: 
     - Creación e integración de *página de creación y edición de productos* en formato ejs
-2. @o94t000: 
+2.  @o94t000: 
     - Incremeto de paleta de colores en forma *gradiente*
     - Creación de wireframe con nuevos colores.
-3. @dianehta: 
+3.  @dianehta: 
     - Seguimiento a actividades pendientes.
     - Actualización de tablero
     - Integración de archivos md a dev.
-4. @gustavbz:
+4.  @gustavbz:
     - Actualización de directorios, cambios y correcciones
     - Integración de cambios a main
-5. @ALSINA1800: 
+5.  @ALSINA1800: 
     - No se reportan actividades
 
 #### Impedimentos identificados
 
-1. @Alecs0303:
+1.  @Alecs0303:
     - 
-2. @o94t000:
+2.  @o94t000:
     - 
-3. @dianehta:
+3.  @dianehta:
     - Mayor comunicación para notificar cuando tienen complicaciones.
-4. @gustavbz:
+4.  @gustavbz:
     - 
-5. @ALSINA1800:
+5.  @ALSINA1800:
     - 
 #### Actividades por realizar hasta el próximo weelky
 
-1. @Todo@s:
+1.  @Todo@s:
     - Revisar próximo sprint.
