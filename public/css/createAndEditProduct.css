@@ -98,12 +98,16 @@
 
     @media (min-width: 1380px){
         .form-edit{ 
-            margin-top: 50px;
+            margin-top: 100px;
             background-color: transparent;
             padding-top: 60px;
             border-bottom: solid 1px white;
             padding-bottom: 200px;
           /*   box-shadow: 4px -4px 3px 0px rgba(10, 1, 1, 0.25);   */
              box-shadow: 0 0 10px rgb(17, 16, 16);
+        }
+
+        .banner{
+            display: none;
         }
     }
