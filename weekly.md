@@ -96,6 +96,86 @@
     - Integración de archivos retro.md y weekly.md a repositorio
 4. @gustavbz:
     - Realizar los 2 de 4 rubros de la actividad *Separar las vistas en carpetas*.
-
 5. @ALSINA1800:
     - Apoyar o comentar sobre actividad *Separar las vistas en carpetas*.
+
+
+### **Fecha:** 23/01/2023
+
+#### Actividades realizadas hasta hoy
+
+1. @Alecs0303: 
+    - No hay nada que reportar
+2. @o94t000: 
+    - No hay nada que reportar
+3. @dianehta: 
+    - Implementación de weekly
+    - Seguimiento a actividades pendientes
+4. @gustavbz:
+    - Vista de productos
+    - Rutas por categoría y por producto
+    - Modificaciones para perfeccionar css
+5. @ALSINA1800: 
+    - No se reportan actividades
+
+#### Impedimentos identificados
+
+1. @Alecs0303:
+    - 
+2. @o94t000:
+    - No hay nada que reportar
+3. @dianehta:
+    - Hacer coincidir horarios de conexión del equipo y mayor comunicación para notificar cuando tienen complicaciones.
+4. @gustavbz:
+    - Incrementar paleta de colores.
+5. @ALSINA1800:
+    - No hay nada que reportar
+#### Actividades por realizar hasta el próximo weelky
+
+1. @Alecs0303: 
+    - *Creación de página de creación y edición de productos* en formato ejs
+2. @o94t000:
+    - Incrementa paleta de colores y comenta ideas.
+    - Wireframe de pagina de creación de productos.
+3. @dianehta:
+    - Seguimiento a actividades y comunicación con equipo.
+4. @gustavbz:
+    - Integración a dev y en su caso a main de las integraciones de archivos y código.
+5. @ALSINA1800:
+    - Apoyar o comentar sobre actividad *Separar las vistas en carpetas*.
+
+### **Fecha:** 25/01/2023
+
+#### Actividades realizadas hasta hoy
+
+1. @Alecs0303: 
+    - Creación e integración de *página de creación y edición de productos* en formato ejs
+2. @o94t000: 
+    - Incremeto de paleta de colores en forma *gradiente*
+    - Creación de wireframe con nuevos colores.
+3. @dianehta: 
+    - Seguimiento a actividades pendientes.
+    - Actualización de tablero
+    - Integración de archivos md a dev.
+4. @gustavbz:
+    - Actualización de directorios, cambios y correcciones
+    - Integración de cambios a main
+5. @ALSINA1800: 
+    - No se reportan actividades
+
+#### Impedimentos identificados
+
+1. @Alecs0303:
+    - 
+2. @o94t000:
+    - 
+3. @dianehta:
+    - Mayor comunicación para notificar cuando tienen complicaciones.
+4. @gustavbz:
+    - 
+5. @ALSINA1800:
+    - 
+#### Actividades por realizar hasta el próximo weelky
+
+1. @Todo@s:
+    - Revisar próximo sprint.
