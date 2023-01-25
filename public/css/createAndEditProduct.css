@@ -1,0 +1,109 @@
+.form-edit{
+    display:  flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(232, 223, 207, 0.779) !important;
+    margin: 0px;
+    padding: 15px;
+    padding-bottom: 30px;
+    width: 100%;
+    z-index: 2;
+    box-shadow: 0 0 10px rgb(17, 16, 16);
+    align-items: center;
+}
+
+.form-edit input{
+    height: 2.5rem;
+    width: 70%;
+    border-radius: 5px;
+    border-color: transparent;
+    margin-bottom: 1rem;
+}
+
+.cargar{
+    width: 100%; 
+    background-color: white;   
+    color: gray;   
+    padding: 14px 20px;   
+    margin: 8px 0;   
+    border: none;   
+    border-radius: 4px;   
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/*.cargar-button {
+    width: 100%;   
+    background-color: #4CAF50;   
+    color: white;   
+    padding: 14px 20px;   
+    margin: 8px 0;   
+    border: none;   
+    border-radius: 4px;   
+    cursor: pointer; 
+}*/
+
+.form-edit label{
+    text-align: left;
+}
+
+#enviar{
+    color: #000000;
+    background-color: #5adc7a;
+    font-size: 19px;
+    border: 0px solid;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    height: 2.5rem;
+    
+    box-shadow: 0.5px 0.5px gray;
+}
+
+#enviar:hover{
+    background-color: #56e124;
+}
+
+    @media (min-width: 769px){
+        .form-edit{
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            margin: 100px 0;
+            border-bottom: solid 1px white;
+            padding-bottom: 50px;
+        }
+
+        .form-edit label{
+            text-align: left;
+        }
+
+        .form-edit input, .form-edit button{
+            width: 50%;        
+        } 
+
+    }
+
+    @media (min-width: 1200px) {
+        .form-edit{
+            margin-top: 50px;
+            padding-top: 50px;  
+        }
+    }
+
+    @media (min-width: 1380px){
+        .form-edit{ 
+            margin-top: 50px;
+            background-color: transparent;
+            padding-top: 60px;
+            border-bottom: solid 1px white;
+            padding-bottom: 200px;
+          /*   box-shadow: 4px -4px 3px 0px rgba(10, 1, 1, 0.25);   */
+             box-shadow: 0 0 10px rgb(17, 16, 16);
+        }
+    }
