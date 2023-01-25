@@ -1,12 +1,11 @@
 const path = require('path');
+const products = require("../database/products")
 
 const categorias = (req, res) => {
-
-    res.render("index");
+    res.render("productsCategories",{"categorias":products});
     };
 
 const detailProduct =  (req, res) => {
-
     res.render("index");
     };
  
@@ -14,5 +13,4 @@ const detailProduct =  (req, res) => {
 module.exports = {
     categorias,
     detailProduct
-    
 }

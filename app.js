@@ -4,11 +4,13 @@ const path = require("path");
 app.use(express.static("public"));
 const publicPath = path.resolve(__dirname, "./public");
 const rutas = require("./src/routes/main");
+const categoriesProduct = require("./src/routes/categorias");
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "./src/views")); //
 
 
 app.use(rutas);
+app.use(categoriesProduct); 
 
 app.listen(3000, () =>{
     console.log("servidor corriendo")
