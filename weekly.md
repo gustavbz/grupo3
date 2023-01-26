@@ -121,7 +121,7 @@
 #### Impedimentos identificados
 
 1. @Alecs0303:
-    - 
+    - No hay nada que reportar
 2. @o94t000:
     - No hay nada que reportar
 3. @dianehta:
@@ -149,33 +149,35 @@
 #### Actividades realizadas hasta hoy
 
 1.  @Alecs0303: 
-    - Creación e integración de *página de creación y edición de productos* en formato ejs
+    - Creación e integración de *página de creación y edición de productos* en formato ejs.
 2.  @o94t000: 
     - Incremeto de paleta de colores en forma *gradiente*
     - Creación de wireframe con nuevos colores.
 3.  @dianehta: 
     - Seguimiento a actividades pendientes.
-    - Actualización de tablero
+    - Actualización de tablero.
     - Integración de archivos md a dev.
 4.  @gustavbz:
-    - Actualización de directorios, cambios y correcciones
-    - Integración de cambios a main
+    - Actualización de directorios, cambios y correcciones.
+    - Integración de cambios a main.
 5.  @ALSINA1800: 
-    - No se reportan actividades
+    - No se reportan actividades.
 
 #### Impedimentos identificados
 
 1.  @Alecs0303:
-    - 
+    - No se reportan impedimentos.
 2.  @o94t000:
-    - 
+    - No se reportan impedimentos.
 3.  @dianehta:
     - Mayor comunicación para notificar cuando tienen complicaciones.
 4.  @gustavbz:
-    - 
+    - Dudas con los profesores.
 5.  @ALSINA1800:
-    - 
+    - No se reportan impedimentos.
+
 #### Actividades por realizar hasta el próximo weelky
 
 1.  @Todo@s:
     - Revisar próximo sprint.
+    - Sesión en discord para CRUD próximo lunes
