@@ -2,7 +2,9 @@ const path = require('path');
 const products = require("../database/products")
 
 const categorias = (req, res) => {
-    res.render("productsCategories",{"categorias":products});
+    let productCategorie = req.params.categoria;
+    let filterProduct = products.filter(e => e.categoria == productCategorie);
+    res.render("productsCategories",{"categorias":filterProduct});
     };
 
 const detailProduct =  (req, res) => {

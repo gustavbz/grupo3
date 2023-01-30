@@ -5,12 +5,17 @@ app.use(express.static("public"));
 const publicPath = path.resolve(__dirname, "./public");
 const rutas = require("./src/routes/main");
 const categoriesProduct = require("./src/routes/categorias");
+const routerForms = require("./src/routes/formRoutes")
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "./src/views")); //
+
+app.use(express.urlencoded({ extended: false }));
+app.use(express.json()); 
 
 
 app.use(rutas);
 app.use(categoriesProduct); 
+app.use(routerForms);
 
 app.listen(3000, () =>{
     console.log("servidor corriendo")

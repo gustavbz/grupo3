@@ -16,12 +16,12 @@
     <img class="banner" src="/images/banneroff.gif" alt="banner" width="100%">
 
     <main>     
-            <form class="form-login" action="" method="get">
+            <form class="form-login" action="/login" method="post">
                 <legend>Inicia sesion</legend><br>
                 <label for="Usuario">E-mail</label>
-                <input type="text" id="Usuario" placeholder="Usuario"> <br>
+                <input type="text" name="usuario" placeholder="Usuario"> <br>
                 <label for="password">Password</label>
-                <input type="password" id="password" placeholder="password" required>
+                <input type="password" name="password" placeholder="password" required>
                  <br>
                 
 
@@ -38,27 +38,7 @@
         <p>"¡Bienvenidos a nuestra sección de categorías! En esta sección, encontrarás todos nuestros productos organizados por temas y categorías para que puedas encontrar fácilmente lo que necesitas. Desde artículos para el hogar y cuidado personal, tenemos una amplia variedad de productos para todas tus necesidades. ¡Echa un vistazo a nuestras categorías y comienza a hacer tus compras hoy mismo!"</p>
         <br>
         
-    <div  class="container-categorys"> <!-- 640x800 dimension de imagenes -->
-
-            <div class="product">
-            <h2>Salud</h2><br>
-            <img src="/images/salud.jpg" alt="imagen" width="50%">
-            </div>
-
-            <div class="product">
-            <h2>Cuidado Personal</h2><br>
-            <img src="/images/productos.jpg" alt="imagen" width="50%">
-            </div>
-
-            <div class="product">
-            <h2>Limpieza</h2><br>
-            <img src="/images/limpieza.jpg" alt="imagen" width="50%">
-            </div>
-            <div class="product">
-            <h2>Hogar</h2><br>
-            <img src="/images/hogar.jpg" alt="imagen" width="50%">
-                </div>
-    </div>
+        <%- include('./partials/categories') %>
         </section>
 
     </main>

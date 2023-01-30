@@ -4,15 +4,12 @@ const path = require('path');
 const index = (req, res) => {
     res.render("index");
     };
-const login = (req, res) => {
+/* const login = (req, res) => {
     res.render("login");
-    };
+    }; */
 const productCart = (req, res) => {
     res.render("productCart");
-    };
-const register = (req, res) => {
-    res.render("register");
-    };
+ };
 const createAndEditProduct = (req, res) => {
     res.render("createAndEditProduct");
     };
@@ -21,9 +18,7 @@ const createAndEditProduct = (req, res) => {
 
  module.exports = {
     index,
-    login,
     productCart,
-    register,
     createAndEditProduct
 
  };
