@@ -4,7 +4,7 @@ const {categorias, detailProduct} = require("../controllers/categoriescontroller
 /* const router = require("./"); */
 
 
-routerCategories.get("/categorias", categorias);
+routerCategories.get("/:home/:categoria", categorias);
 routerCategories.get("/detalle/:id", detailProduct);
 
 
