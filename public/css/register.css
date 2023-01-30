@@ -8,6 +8,7 @@
     padding-bottom: 30px;
     width: 100%;
     border-bottom: solid 1px white;
+    box-shadow: 0 0 10px rgb(17, 16, 16);
 }
 
 .form-register input{
@@ -64,10 +65,25 @@
 
     @media (min-width: 1380px){
         .form-register{ 
-            margin-top: 50px;
+            margin-top: 90px;
             background-color: transparent;
             padding-top: 60px;
             border-bottom: solid 1px white;
-            padding-bottom: 200px;
+            padding-bottom: 120px;
+          /*   box-shadow: 4px -4px 3px 0px rgba(10, 1, 1, 0.25);   */
+             box-shadow: 0 0 10px rgb(17, 16, 16);
+        }
+
+        .form-register input {
+            width: 40%;
+        }
+        .form-register button{
+            width: 20%;
+            border-radius: 5px;
+            border: solid 1px black;
+        }
+
+        .banner{
+            display: none;
         }
     }
