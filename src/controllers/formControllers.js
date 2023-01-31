@@ -18,14 +18,26 @@ const formLogin  = (req, res) => {
 
  const formRegister = (req, res) => {
     const data =  req.body;
-    let jsonString = JSON.stringify(data);
-    fs.appendFile(path.join(__dirname, '../database/users.json'), jsonString, (err) => {
+    const img = req.file.filename;
+
+    let newImage;
+    if(img.length > 0){
+        newImage = `ìmages/imgusers/${img}`
+    } 
+    const obj = {
+        ...data, 
+        img : newImage
+    }
+ /*    let jsonString =  JSON.stringify(data); */
+    users.push(obj);
+    fs.writeFile(path.join(__dirname,'../database/users.json'), JSON.stringify(users), (err) => {
         if (err) {
-            res.send("Error");
+            res.send("Error"); //writefilesync cambiar  users.push data. 
             return;
         }
         res.send("guardado");
-    });
+       
+    })
    /*  res.redirect("/home") */
 }; 
 
