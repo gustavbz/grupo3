@@ -19,25 +19,22 @@
 
     <main>
 
-        <form class="form-edit" action="" method="get">
+        <form class="form-edit" action="/" method="post" enctype="multipart/form-data">
             <h2>Crear o editar un producto</h2>
             <label for="Nombre">Nombre</label>
-            <input type="text" name="Nombre" id="" placeholder=" Nombre">
+            <input type="text" name="nombre" id="" placeholder=" Nombre">
             
-            <label for="Descripcion">Descripción</label>
-            <input type="text" name="Nombre" id="" placeholder=" Descripcion">
-            
-            <label for="Imagen">Imagen</label>
-            <input type="file" class="cargar" name="Nombre" id="" placeholder=" Imagen">
-
             <label for="Categoria">Categoría</label>
-            <input type="text" name="Nombre" id="" placeholder=" Categoria">
-            
-            <label for="Detalles">Detalles</label>
-            <input type="text" name="Nombre" id="" placeholder=" Detalles">
-            
+            <input type="text" name="categoria" id="" placeholder=" Categoria">
+
+             <label for="Imagen">Imagen</label>
+            <input type="file" class="cargar" name="imagen" id="" placeholder=" Imagen">
+
             <label for="Precio">Precio</label>
             <input type="number" name="Nombre" id="" placeholder=" Precio">
+            
+            <label for="Descripcion">Descripción</label>
+            <input type="text" name="descripcion" id="" placeholder=" Descripcion">
             
             <button id="enviar" type="submit" >
                 Enviar
@@ -45,19 +42,7 @@
 
         </form>
 
-        <section class="section-categories">
-            <h2>CATEGORIAS</h2>
-            <p>"¡Bienvenidos a nuestra sección de categorías! En esta sección, encontrarás todos nuestros productos
-                organizados por temas y categorías para que puedas encontrar fácilmente lo que necesitas. Desde
-                artículos para el hogar y cuidado personal, tenemos una amplia variedad de productos para todas tus
-                necesidades. ¡Echa un vistazo a nuestras categorías y comienza a hacer tus compras hoy mismo!"</p>
-            <br>
-
-           
-             <!-- SECCION DE CATEGORIAS  -->
-             <%- include('./partials/categories') %>
-        </section>
-
+      
     </main>
     <section>
         <h2>Testimonios</h2>

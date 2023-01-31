@@ -1,5 +1,5 @@
 const path = require('path');
-const products = require("../database/products")
+const products = require("../database/products.json")
 
 const categorias = (req, res) => {
     let productCategorie = req.params.categoria;
