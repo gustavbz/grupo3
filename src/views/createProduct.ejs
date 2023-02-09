@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,34 +10,31 @@
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/createAndEditProduct.css">
 </head>
-
 <body>
     <!-- header -->
     <%- include('./partials/header') %>
     <img class="banner" src="/images/banneroff.gif" alt="banner" width="100%">
 
     <main>
-
-        <form class="form-edit" action="/" method="post" enctype="multipart/form-data">
+        <form class="form-edit" action="/createproduct/new" method="POST" enctype="multipart/form-data">
             <h2>Crear o editar un producto</h2>
             <label for="Nombre">Nombre</label>
             <input type="text" name="nombre" id="" placeholder=" Nombre">
-            
+    
             <label for="Categoria">Categoría</label>
             <input type="text" name="categoria" id="" placeholder=" Categoria">
 
              <label for="Imagen">Imagen</label>
-            <input type="file" class="cargar" name="imagen" id="" placeholder=" Imagen">
+            <input type="file" class="cargar" name="imagen" id=""  accept="image/png, image/jpeg placeholder=" Imagen">
 
             <label for="Precio">Precio</label>
-            <input type="number" name="Nombre" id="" placeholder=" Precio">
+            <input type="number" name="precio" id="" placeholder=" Precio">
             
             <label for="Descripcion">Descripción</label>
-            <input type="text" name="descripcion" id="" placeholder=" Descripcion">
+            <input type="text" name="descripcion" id=""  placeholder=" Descripcion">
             
-            <button id="enviar" type="submit" >
-                Enviar
-            </button>
+            <button  type="submit" id="enviar">Enviar</button>
+                
 
         </form>
 

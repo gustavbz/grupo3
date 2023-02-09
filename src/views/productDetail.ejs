@@ -28,9 +28,9 @@
         <div class="product-detail"> 
             <div class="div-img"><img src="/images/aceite.jpg" width="70%"></div>
             <div>
-                <h2 class="product-name">Coconut oeil</h2>
-                <h4 class="product-price">$599</h4>
-                <p class="product-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti a repudiandae, obcaecati quia atque blanditiis ipsum quidem voluptate nemo accusamus eligendi animi, vitae ullam repellendus saepe velit dignissimos odio possimus?</p>
+                <h2 class="product-name"><%= product.nombre %></h2>
+                <h4 class="product-price"><%= product.precio %></h4>
+                <p class="product-description"><%= product.descripcion %></p>
                     <div class="product-cantidad">
                         <label for="cantidad">Cantidad:</label><br>
                         <input class="quantity" type="number" id="cantidad" name="cantidad"  min="1" max="10">

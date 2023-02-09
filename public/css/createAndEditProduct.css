@@ -2,7 +2,7 @@
     display:  flex;
     flex-direction: column;
     text-align: center;
-    background-color: rgba(232, 223, 207, 0.779) !important;
+    background-color: rgba(0, 0, 0, 0.541);
     margin: 0px;
     padding: 15px;
     padding-bottom: 30px;
@@ -98,14 +98,19 @@
 
     @media (min-width: 1380px){
         .form-edit{ 
-            margin-top: 100px;
-            background-color: transparent;
+            margin-top: 170px;
+            background-color: linear-gradient(150deg, rgb(0, 0, 0) 50%);
             padding-top: 60px;
             border-bottom: solid 1px white;
-            padding-bottom: 200px;
+            padding-bottom: 70px;
+            border-radius: 50px;
           /*   box-shadow: 4px -4px 3px 0px rgba(10, 1, 1, 0.25);   */
-             box-shadow: 0 0 10px rgb(17, 16, 16);
+            box-shadow: 0 0 10px rgb(17, 16, 16);
         }
+        main {
+            padding: 20px 400px 0px 400px;
+        }
+
 
         .banner{
             display: none;

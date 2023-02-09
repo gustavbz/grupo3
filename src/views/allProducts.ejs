@@ -7,7 +7,7 @@
     <title>The MarketPlace</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@1,300;1,400&family=Roboto&family=Unbounded:wght@300&display=swap" rel="stylesheet">
-     <link rel="stylesheet" href="/css/style.css"> 
+    <link rel="stylesheet" href="/css/style.css"> 
     <link rel="stylesheet" href="/css/productCategories.css">
 </head>
 <body>
@@ -15,12 +15,12 @@
     <%- include('./partials/header') %>
         <main>
             <section class="container-categories-buy">
-            <% for(let i = 0; i< categorias.length; i++){ %> 
+            <% for(let i = 0; i< products.length; i++){ %> 
                 <div class="item-categories">
-                     <h2><%= categorias[i].nombre %></h2>
-                    <em>$<%= categorias[i].precio %></em>
-                    <p class="description-categories"><%= categorias[i].categoria%></p>
-                    <a href="#"><img src="/images/imgproducts/<%=categorias[i].imagen %>" alt="imagen" width="70%"></a>
+                     <h2><%= products[i].nombre %></h2>
+                    <em>$<%= products[i].precio %></em>
+                    <p class="description-categories"><%= products[i].descripcion%></p>
+                    <a href="#"><img src="/images/imgproducts/<%=products[i].imagen %>" alt="imagen" width="70%"></a>
                 </div> 
         
             <%  } %>
