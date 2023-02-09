@@ -10,15 +10,13 @@ const index = (req, res) => {
 const productCart = (req, res) => {
     res.render("productCart");
  };
-const createAndEditProduct = (req, res) => {
-    res.render("createAndEditProduct");
-    };
     
 /* res.sendFile(path.join(__dirname, '../views', 'login.html')); */
 
  module.exports = {
     index,
     productCart,
-    createAndEditProduct
 
  };
+
+

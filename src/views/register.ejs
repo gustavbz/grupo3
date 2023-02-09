@@ -21,16 +21,22 @@
   <%- include('./partials/header') %>
     <img class="banner" src="/images/banneroff.gif" alt="banner" width="100%">
 
-    <main>
+    <main>      
+        <% if(locals.errors){%>
+            <% for(let i= 0; i < errors.length; i++){ %> 
+            <p><%= errors[i].msg %> </p>
+            <%}%> 
+            <%}%> 
+         
 
         <form class="form-register" action="/register/newuser" method="POST" enctype="multipart/form-data">
             <legend>Registrarse</legend><br>
             <label for="Nombre">Nombre</label>
-            <input type="text" name="nombre" id="" placeholder="Nombre"><br>
+            <input type="text" name="nombre" id="" placeholder="Nombre" value= "<%= locals.values ? values.nombre: ""  %>" /> <br>
             <label for="Apellido">Apellido</label>
             <input type="text" name="apellido" id="" placeholder="Apellido"><br>
             <label for="E-mail">E-mail</label>
-            <input type="text" name="email" id="" placeholder="E-mail"><br>
+            <input type="email" name="email" id="" placeholder="E-mail"><br>
             <label for="password">Password</label>
             <input type="password" name="password" id="" placeholder="Password"><br>
             <label for="telefono">Numero de telefono</label>
