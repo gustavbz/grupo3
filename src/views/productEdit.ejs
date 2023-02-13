@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The MarketPlace</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@1,300;1,400&family=Roboto&family=Unbounded:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/createAndEditProduct.css">
+</head>
+<body>
+    <!-- header -->
+    <%- include('./partials/header') %>
+    <img class="banner" src="/images/banneroff.gif" alt="banner" width="100%">
+
+    <main>
+
+        <form class="form-edit" action="/products/edit/<%=productEdit.id%>?_method=PUT" method="POST"  enctype="application/x-www-form-urlencoded">
+           
+            <h2>Editar un producto</h2>
+            <img src="/images/imgproducts/<%=productEdit.imagen %>" alt="">
+            <input type="file" class="cargar" name="imagen" id=""  accept="image/png, image/jpeg" placeholder="imagen">
+
+            <label for="Id">Id producto</label>
+            <input type="text" name="id" id="" placeholder="Id" readonly = "true" value="<%=productEdit.id%>">
+
+            <label for="Nombre">Nombre</label>
+            <input type="text" name="nombre" id="" placeholder="Nombre" value= "<%=productEdit.nombre %>">
+    
+            <label for="Categoria">Categoría</label>
+            <input type="text" name="categoria" id="" placeholder=" Categoria" value="<%=productEdit.categoria%>">
+
+            <label for="Precio">Precio</label>
+            <input type="text" name="precio" id="" placeholder=" Precio" value="<%=productEdit.precio%>">
+            
+            <label for="Descripcion">Descripción</label>
+            <input type="text" name="descripcion" id=""  placeholder=" Descripcion" value = "<%=productEdit.descripcion%>">
+            
+            <button  type="submit" id="enviar">Enviar</button><br>
+
+           
+
+        </form>
+                
+       
+            
+
+      
+    </main>
+    <section>
+        <h2>Testimonios</h2>
+
+    </section>
+
+    <!-- footer -->
+    <%- include('./partials/footer') %>
+
+</body>
+
+</html>

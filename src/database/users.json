@@ -1,0 +1,242 @@
+[
+ {
+  "id": 1,
+  "nombre": "semper est",
+  "apellido": "in",
+  "email": "mussher0@pagesperso-orange.fr",
+  "password": "nPh5Zy",
+  "telefono": "Admin",
+  "direccion": "Suite 80",
+  "avatar": "/images/avatars/pretzel.jpg"
+ },
+ {
+  "id": 2,
+  "nombre": "euismod scelerisque",
+  "apellido": "curabitur at",
+  "email": "whaestier1@simplemachines.org",
+  "password": "uMhLKTO4O2",
+  "telefono": "Customer",
+  "direccion": "Room 1083",
+  "avatar": "/images/avatars/pretzel.jpg"
+ },
+ {
+  "id": 3,
+  "nombre": "consequat",
+  "apellido": "tristique",
+  "email": "bluscott2@vistaprint.com",
+  "password": "1nemKz",
+  "telefono": "Admin",
+  "direccion": "PO Box 19400",
+  "avatar": "/images/avatars/kipa.jpg"
+ },
+ {
+  "id": 4,
+  "nombre": "et",
+  "apellido": "mollis",
+  "email": "akalkhoven3@ameblo.jp",
+  "password": "bSh5S4",
+  "telefono": "Admin",
+  "direccion": "7th Floor",
+  "avatar": "/images/avatars/jala.jpg"
+ },
+ {
+  "id": 5,
+  "nombre": "cras pellentesque",
+  "apellido": "lorem",
+  "email": "aklosa4@reddit.com",
+  "password": "saHWbV",
+  "telefono": "Customer",
+  "direccion": "Apt 345",
+  "avatar": "/images/avatars/kipa.jpg"
+ },
+ {
+  "id": 6,
+  "nombre": "nulla",
+  "apellido": "felis",
+  "email": "shalgarth5@amazon.de",
+  "password": "fytNGmNCes7y",
+  "telefono": "Admin",
+  "direccion": "Room 1045",
+  "avatar": "/images/avatars/polloCorazon.jpg"
+ },
+ {
+  "id": 7,
+  "nombre": "ut massa",
+  "apellido": "eu nibh",
+  "email": "hcoughlin6@nsw.gov.au",
+  "password": "HH4YQp0Qu99F",
+  "telefono": "Admin",
+  "direccion": "16th Floor",
+  "avatar": "/images/avatars/jala.jpg"
+ },
+ {
+  "id": 8,
+  "nombre": "ipsum",
+  "apellido": "integer",
+  "email": "nrulton7@timesonline.co.uk",
+  "password": "asp2fiK0ZBn",
+  "telefono": "Admin",
+  "direccion": "Suite 5",
+  "avatar": "/images/avatars/jala.jpg"
+ },
+ {
+  "id": 9,
+  "nombre": "mauris",
+  "apellido": "tellus semper",
+  "email": "ejosselson8@godaddy.com",
+  "password": "meRWCPn",
+  "telefono": "Admin",
+  "direccion": "Suite 45",
+  "avatar": "/images/avatars/pletzale.jpg"
+ },
+ {
+  "id": 10,
+  "nombre": "turpis enim",
+  "apellido": "amet",
+  "email": "gbergeon9@cbsnews.com",
+  "password": "zDWOZ9",
+  "telefono": "Admin",
+  "direccion": "19th Floor",
+  "avatar": ""
+ },
+ {
+  "id": 11,
+  "nombre": "congue diam",
+  "apellido": "cubilia curae",
+  "email": "rhustera@issuu.com",
+  "password": "D57luj",
+  "telefono": "Admin",
+  "direccion": "Suite 95",
+  "avatar": "/images/avatars/jala.jpg"
+ },
+ {
+  "id": 12,
+  "nombre": "vel",
+  "apellido": "consectetuer adipiscing",
+  "email": "mbenedekb@dailymail.co.uk",
+  "password": "vANZbj",
+  "telefono": "Admin",
+  "direccion": "7th Floor",
+  "avatar": "/images/avatars/kipa.jpg"
+ },
+ {
+  "id": 13,
+  "nombre": "amet nunc",
+  "apellido": "molestie",
+  "email": "kpearlec@msu.edu",
+  "password": "BWsnX2ShC5l",
+  "telefono": "Admin",
+  "direccion": "Apt 1253",
+  "avatar": "/images/avatars/polloCorazon.jpg"
+ },
+ {
+  "id": 14,
+  "nombre": "fermentum justo",
+  "apellido": "purus sit",
+  "email": "iduckerd@e-recht24.de",
+  "password": "oBqVHHQcjeUT",
+  "telefono": "Admin",
+  "direccion": "PO Box 23793",
+  "avatar": "/images/avatars/polloCorazon.jpg"
+ },
+ {
+  "id": 15,
+  "nombre": "fusce",
+  "apellido": "sollicitudin vitae",
+  "email": "kgrimolbiee@flavors.me",
+  "password": "itlIfDuOACy",
+  "telefono": "Admin",
+  "direccion": "Apt 305",
+  "avatar": "/images/avatars/kipa.jpg"
+ },
+ {
+  "id": 16,
+  "nombre": "eget",
+  "apellido": "pellentesque",
+  "email": "hmassimof@va.gov",
+  "password": "tiGZjzHxcO1O",
+  "telefono": "Admin",
+  "direccion": "Room 51",
+  "avatar": "/images/avatars/kipa.jpg"
+ },
+ {
+  "id": 17,
+  "nombre": "elementum ligula",
+  "apellido": "tempus vel",
+  "email": "nlatchmoreg@opensource.org",
+  "password": "hX2QJqMkCKb",
+  "telefono": "Admin",
+  "direccion": "Suite 85",
+  "avatar": "/images/avatars/polloCorazon.jpg"
+ },
+ {
+  "id": 18,
+  "nombre": "proin",
+  "apellido": "in ante",
+  "email": "fwethh@bloglines.com",
+  "password": "000klqDy7",
+  "telefono": "Customer",
+  "direccion": "Suite 59",
+  "avatar": "/images/avatars/tostada.jpg"
+ },
+ {
+  "id": 19,
+  "nombre": "aliquet pulvinar",
+  "apellido": "lacinia",
+  "email": "cboothjarvisi@weebly.com",
+  "password": "sptDZlW",
+  "telefono": "Admin",
+  "direccion": "Suite 7",
+  "avatar": "/images/avatars/kipa.jpg"
+ },
+ {
+  "id": 20,
+  "nombre": "nulla",
+  "apellido": "vestibulum velit",
+  "email": "bjaulmesj@ibm.com",
+  "password": "omGIgKuap",
+  "telefono": "Customer",
+  "direccion": "Apt 1044",
+  "avatar": "/images/avatars/pretzel.jpg"
+ },
+ {
+  "id": 21,
+  "nombre": "JUGO VERDE",
+  "apellido": "prueba1",
+  "email": "tavobz94@gmail.com",
+  "password": "sss",
+  "telefono": "sss",
+  "direccion": "ssss",
+  "img": "ìmages/imgusers/avatar1675962789084.png"
+ },
+ {
+  "id": 22,
+  "nombre": "JUGO VERDE",
+  "apellido": "prueba1",
+  "email": "tavobz94@gmail.com",
+  "password": "sss",
+  "telefono": "sss",
+  "direccion": "ssss",
+  "img": "ìmages/imgusers/avatar1675962803810.png"
+ },
+ {
+  "id": 23,
+  "nombre": "JUGO VERDE",
+  "apellido": "prueba1",
+  "email": "tavobz94@gmail.com",
+  "password": "",
+  "telefono": "sss",
+  "direccion": "ssss",
+  "img": "ìmages/imgusers/avatar1675962845995.png"
+ },
+ {
+  "id": 24,
+  "nombre": "JUGO VERDE",
+  "apellido": "prueba1",
+  "email": "tavobz94@gmail.com",
+  "password": "dddd",
+  "telefono": "ddddd",
+  "direccion": "ddddd",
+  "img": "ìmages/imgusers/avatar1676310856723.png"
+ }
+]

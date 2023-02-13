@@ -5,12 +5,13 @@
 }
 
 body{
-    background-color: rgb(83, 109, 80, .7);
+    background: linear-gradient(150deg, rgba(28,112,108,1) 20%, rgba(34,33,45,1) 80%);
     color: black;
     font-family: 'Jost', sans-serif;
     padding: 10px;
     z-index: 1;
 }
+
 
 header .menu-principal{
     display: flex;
@@ -45,6 +46,8 @@ main .container-buy, section .container-categorys{
     overflow-y: auto;
     margin: 20px 0;
     height: 70%;
+   
+    
 
 }
 main .container-buy .item , section .container-categorys .product{
@@ -56,7 +59,7 @@ main .container-buy .item , section .container-categorys .product{
     text-align: center;
     width: 100%;
     background-color: #FAF7E8;
-    box-shadow: 4px -4px 3px 0px rgba(10, 1, 1, 0.25);  
+    box-shadow: 0 0 10px rgb(17, 16, 16);
 }
 
 main .container-buy img, main .container-categorys img{
@@ -167,6 +170,7 @@ footer .datastore-container{
         padding: 0 20px;
         font-size: 18px;
         border-radius: 10px;
+        box-shadow: 0 0 10px rgb(17, 16, 16);
 
         }
 
@@ -269,6 +273,16 @@ footer .datastore-container{
 
 @media (min-width: 1200px){
 
+    
+.text-categories{
+    padding: 80px 100px;
+    box-shadow: 0 0 10px rgb(17, 16, 16);
+    background-color:  rgb(250, 247, 232, 0.1);
+    margin: 80px 0px;
+
+   }
+
+
     main{
         padding: 100px;
     }
@@ -291,7 +305,7 @@ footer .datastore-container{
     header .menu-principal{
         width: 100%;
         text-align: center;
-        background-color: rgb(250, 247, 232, 0.2);
+        background-color: rgb(250, 247, 232, 0.1);
     }
          body .banner{
         margin-top: 150px;
@@ -321,14 +335,25 @@ footer .datastore-container{
 
     @media (min-width: 1380px){
 
+       .text-categories{
+        padding: 100px 400px;
+        box-shadow: 0 0 10px rgb(17, 16, 16);
+        background-color:  rgb(250, 247, 232, 0.1);
+        margin: 80px 0px;
+       
+
+       }
+
+
         main{
-            padding: 0 150px;
+            /* padding: 100px 100px; */
             background-color: rgb(250, 247, 232, 0.3);
             margin-bottom: 100px;
         }
+        
 
         footer{
-            padding: 150px;
+            padding: 0px 250px;
         }
 
         div .description1, div .description2, div .description3{
@@ -348,18 +373,13 @@ footer .datastore-container{
        header .menu-principal{
            width: 100%;
            text-align: center;
-           background-color: rgba(235, 233, 225, 0.699);
+           background-color: rgb(250, 247, 232, 0.1);
+           border-radius: 5px;
        }
             body .banner{
            margin-top: 150px;
         } 
-       /*  main{
-           padding: 0 5px;
-        } */
-   
-       /*  main .container-buy .item , section .container-categorys .product{
-           margin-right: 20px ;
-       } */
+    
        main .container-buy, section .container-categorys{ /* modificar contenedores */
            overflow: hidden;
            display: flex;
@@ -379,29 +399,4 @@ footer .datastore-container{
 
  }
       
-   /*  }
-    .container1, .container2 {
-        display: flex;
-        width: 100%;
-        flex-wrap: wrap;
-        justify-content: center;
-     
-    }
-    .item{
-        width: 20%;
-    }
-
-    .search{
-    display: flex;  
-    justify-content: center;
-    align-items: center;
-
-    }
-    header nav .mercadoliebre{
-        width: 40%;
-    }
-
-    .header-title{
-        font-size: 16px;
-        font-weight: normal;
-    }
+  

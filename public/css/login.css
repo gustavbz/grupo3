@@ -2,19 +2,29 @@
     display:  flex;
     flex-direction: column;
     text-align: center;
-    background-color: rgb(83, 109, 80, .2);
+    background-color: rgba(0, 0, 0, 0.541);
     margin: 30px 0;
     padding: 15px;
     padding-bottom: 30px;
     width: 100%;
     border-bottom: solid 1px white;
+    box-shadow: 0 0 10px rgb(17, 16, 16);
+}
+
+.form-login legend{
+    font-size: 25px;
+    color: white;
 }
 
 .form-login input{
     height: 40px;
+    border-radius: 20px;
+    border-color: transparent;
+   /*  height: 45px;
     border-radius: 5px;
     border-color: transparent;
-}
+} */
+ }
 
 .form-login label{
     text-align: left;
@@ -63,10 +73,46 @@
 
     @media (min-width: 1380px){
         .form-login{ 
-            margin-top: 50px;
+            margin-top: 170px;
+            background-color: linear-gradient(150deg, rgb(0, 0, 0) 50%);
+            padding-top: 60px;
+            border-bottom: solid 1px white;
+            padding-bottom: 70px;
+            border-radius: 50px;
+          /*   box-shadow: 4px -4px 3px 0px rgba(10, 1, 1, 0.25);   */
+            box-shadow: 0 0 10px rgb(17, 16, 16);
+           /*  margin-top: 100px;
             background-color: transparent;
             padding-top: 60px;
             border-bottom: solid 1px white;
-            padding-bottom: 200px;
+            padding-bottom: 90px;
+            margin-bottom: 250px; */
         }
+
+        .banner{
+            display: none;
+        }
+
+        main {
+            padding: 20px 400px 0px 400px;
+        }
+
+        
+        .form-login input {
+            width: 50%;
+        }
+
+        .form-login button{
+            width: 20%;
+            border-radius: 25px;
+            border: solid 1px black;
+            height: 50px;
+        }
+
+        input[type="text"], input[type="password"]{
+            font-size: 16px;
+            padding-left: 20px;
+          }
+  
+
     }

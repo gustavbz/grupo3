@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The MarketPlace</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@1,300;1,400&family=Roboto&family=Unbounded:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/register.css">
+</head>
+
+<body>
+  <!-- header -->
+  <%- include('./partials/header') %>
+    <img class="banner" src="/images/banneroff.gif" alt="banner" width="100%">
+
+    <main>      
+        <% if(locals.errors){%>
+            <% for(let i= 0; i < errors.length; i++){ %> 
+            <p><%= errors[i].msg %> </p>
+            <%}%> 
+            <%}%> 
+         
+
+        <form class="form-register" action="/register/newuser" method="POST" enctype="multipart/form-data">
+            <legend>Registrarse</legend><br>
+            <label for="Nombre">Nombre</label>
+            <input type="text" name="nombre" id="" placeholder="Nombre" value= "<%= locals.values ? values.nombre: ""  %>" /> <br>
+            <label for="Apellido">Apellido</label>
+            <input type="text" name="apellido" id="" placeholder="Apellido"><br>
+            <label for="E-mail">E-mail</label>
+            <input type="email" name="email" id="" placeholder="E-mail" required><br>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="" placeholder="Password"><br>
+            <label for="telefono">Numero de telefono</label>
+            <input type="text" name="telefono" id="" placeholder="Telefono"> <br>
+            <label for="direccion">Direccion</label>
+            <input type="text" name="direccion" id="" placeholder="Direccion"><br>
+            <label for="avatar">avatar</label>
+            <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg"><br>
+            
+            <button type="submit">REGISTRAR</button>
+
+
+
+        </form>
+
+
+
+        <section class="section-categories">
+            <h2>CATEGORIAS</h2>
+            <p>"¡Bienvenidos a nuestra sección de categorías! En esta sección, encontrarás todos nuestros productos
+                organizados por temas y categorías para que puedas encontrar fácilmente lo que necesitas. Desde
+                artículos para el hogar y cuidado personal, tenemos una amplia variedad de productos para todas tus
+                necesidades. ¡Echa un vistazo a nuestras categorías y comienza a hacer tus compras hoy mismo!"</p>
+            <br>
+
+                 <!-- SECCION DE CATEGORIAS  -->
+            <%- include('./partials/categories') %>
+            
+        </section>
+
+    </main>
+    <section>
+        <h2>Testimonios</h2>
+
+    </section>
+
+
+   <!-- footer -->
+   <%- include('./partials/footer') %>
+
+</body>
+
+</html>

@@ -8,6 +8,8 @@
     padding-bottom: 30px;
     width: 100%;
     z-index: 2;
+    box-shadow: 0 0 10px rgb(17, 16, 16);
+    
 }
 
 .contProducts{
@@ -134,10 +136,14 @@
 
 @media (min-width: 1380px){
     .product-cart{ 
-        margin-top: 50px;
+        margin-top: 100px;
         background-color: transparent;
         padding-top: 60px;
         border-bottom: solid 1px white;
         padding-bottom: 200px;
+    }
+
+    .banner{
+        display: none;
     }
 }

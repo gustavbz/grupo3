@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The MarketPlace</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@1,300;1,400&family=Roboto&family=Unbounded:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css"> 
+    <link rel="stylesheet" href="/css/productCategories.css">
+</head>
+<body>
+    <!-- header -->
+    <%- include('./partials/header') %>
+        <main>
+            <section class="container-categories-buy">
+            <% for(let i = 0; i< products.length; i++){ %> 
+                <div class="item-categories">
+                     <h2><%= products[i].nombre %></h2>
+                    <em>$<%= products[i].precio %></em>
+                    <p class="description-categories"><%= products[i].descripcion%></p>
+                    <a href="product/detail/<%=products[i].id%>"><img src="/images/imgproducts/<%=products[i].imagen %>" alt="imagen" width="70%"></a>
+                </div> 
+        
+            <%  } %>
+        </section>
+
+
+        </main>
+
+    <!-- footer -->
+    <%- include('./partials/footer') %>
+    
+
+</body>
+</html>
