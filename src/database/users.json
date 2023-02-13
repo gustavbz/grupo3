@@ -198,45 +198,5 @@
   "telefono": "Customer",
   "direccion": "Apt 1044",
   "avatar": "/images/avatars/pretzel.jpg"
- },
- {
-  "id": 21,
-  "nombre": "JUGO VERDE",
-  "apellido": "prueba1",
-  "email": "tavobz94@gmail.com",
-  "password": "sss",
-  "telefono": "sss",
-  "direccion": "ssss",
-  "img": "ìmages/imgusers/avatar1675962789084.png"
- },
- {
-  "id": 22,
-  "nombre": "JUGO VERDE",
-  "apellido": "prueba1",
-  "email": "tavobz94@gmail.com",
-  "password": "sss",
-  "telefono": "sss",
-  "direccion": "ssss",
-  "img": "ìmages/imgusers/avatar1675962803810.png"
- },
- {
-  "id": 23,
-  "nombre": "JUGO VERDE",
-  "apellido": "prueba1",
-  "email": "tavobz94@gmail.com",
-  "password": "",
-  "telefono": "sss",
-  "direccion": "ssss",
-  "img": "ìmages/imgusers/avatar1675962845995.png"
- },
- {
-  "id": 24,
-  "nombre": "JUGO VERDE",
-  "apellido": "prueba1",
-  "email": "tavobz94@gmail.com",
-  "password": "dddd",
-  "telefono": "ddddd",
-  "direccion": "ddddd",
-  "img": "ìmages/imgusers/avatar1676310856723.png"
  }
 ]
