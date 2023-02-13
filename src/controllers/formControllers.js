@@ -7,7 +7,7 @@ const users = JSON.parse(fs.readFileSync(dataUsers, 'utf-8'));
 
 const login = (req, res) => {
         res.render("login");
-        };
+    };
 
 const formLogin  = (req, res) => {
   return res.send(req.body);
@@ -17,12 +17,8 @@ const formLogin  = (req, res) => {
     res.render("register");
     };
 
- const formRegister = (req, res) => { 
-    console.log(req.body); //codigo de validacion
-  
-   
+ const formRegister = (req, res) => {  //codigo de validacion
     const errors = validationResult(req);  
-    console.log(errors);
     if (errors.isEmpty()) {
         const data =  req.body;
         const img = req.file.filename;
@@ -38,12 +34,12 @@ const formLogin  = (req, res) => {
         }
      /*    let jsonString =  JSON.stringify(data); */
         users.push(obj);
-        fs.writeFile(path.join(__dirname,'../database/users.json'), JSON.stringify(users), (err) => {
+        fs.writeFile(path.join(__dirname,'../database/users.json'), JSON.stringify(users,null," "), (err) => {
             if (err) {
                 res.send("Error"); //writefilesync cambiar  users.push data. 
                 return;
             }
-            res.send("guardado"); 
+            res.render("login"); 
         })
         } else{
             res.render(path.join(__dirname, '../views/register'), {errors: errors.array()});// No hay errores, seguimos adelante

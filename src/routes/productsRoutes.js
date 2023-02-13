@@ -2,7 +2,7 @@ let express = require("express");
 let routerProducts = express.Router();
 const path = require("path");
 const multer = require("multer");
-const {getAllproducts,getCreateProduct,createProduct,detailProduct,productConfirm,productEdit} = require("../controllers/productsControllers");
+const {getAllproducts,getCreateProduct,createProduct,detailProduct,productConfirm,productEdit,deleteProduct} = require("../controllers/productsControllers");
 
 let storage = multer.diskStorage({
     destination: (req,file, cb) =>{
@@ -25,7 +25,7 @@ routerProducts.post("/createproduct/new", upload.single("imagen"), createProduct
 routerProducts.get( "/product/detail/:id", detailProduct); /* muestra el detail de un producto en particular */
 routerProducts.get( "/products/edit/:id", productEdit); /* formulario de edicion */
 routerProducts.put("/products/edit/:id", productConfirm); /*accion de editar producto, a donde vviaja */
-routerProducts.delete("/products/:id ");     /* fomrulario de delete  */
+routerProducts.delete("/products/edit/:id ", deleteProduct);     /* fomrulario de delete  */
 
 
 
