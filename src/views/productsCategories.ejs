@@ -20,7 +20,7 @@
                      <h2><%= categorias[i].nombre %></h2>
                     <em>$<%= categorias[i].precio %></em>
                     <p class="description-categories"><%= categorias[i].categoria%></p>
-                    <a href="#"><img src="/images/imgproducts/<%=categorias[i].imagen %>" alt="imagen" width="70%"></a>
+                    <a href="/home/categoria/detail/<%=categorias[i].id%>"><img src="/images/imgproducts/<%=categorias[i].imagen %>" alt="imagen" width="70%"></a>
                 </div> 
         
             <%  } %>

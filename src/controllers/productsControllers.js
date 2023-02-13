@@ -10,7 +10,7 @@ const getAllproducts = (req,res) => {
 
 const getCreateProduct = (req,res) => {
     res.render("createProduct");
-    /* res.render(path.join(__dirname, "../views/createProduct")); */
+    
 }
 
  const createProduct = (req,res) => {
@@ -27,7 +27,6 @@ const getCreateProduct = (req,res) => {
         ...dataProduct, 
         img : newImage
     }
- /*    let jsonString =  JSON.stringify(data); */
     products.push(obj);
     fs.writeFile(path.join(__dirname,'../database/products.json'), JSON.stringify(products), (err) => {
         if (err) {
@@ -35,7 +34,6 @@ const getCreateProduct = (req,res) => {
             return;
         }
         res.send("guardado");
-       
     })
 
    /*  res.redirect("/home") */
@@ -45,41 +43,52 @@ const detailProduct = (req,res)=>{
     const id = req.params.id;
     const product = products.find(e => e.id == parseInt(id))
     if(product){ 
-        res.render(path.join(__dirname, "../views/productDetail"),{product})
+        res.render(path.join(__dirname, "../views/productDetailAdmin"),{product})
    } else{
         res.send("not found")
     }
      
 };
-
    const productEdit = (req,res) =>{
     const {id} = req.params;
     const productEdit = products.find(elem => elem.id == id);
     res.render(path.join(__dirname, "../views/productEdit"),{productEdit});
-
    }
 
    const productConfirm = (req, res) => {
     const id = req.params.id;
-    console.log(req.body)
     for(let i = 0; i < products.length; i++) {
          if(products[i].id == id){
             products[i].nombre =  req.body.nombre
             products[i].categoria = req.body.categoria
             products[i].precio = req.body.precio
             products[i].descripcion =  req.body.descripcion
-     console.log(products[i])
          }
     } 
-        fs.writeFileSync(path.join(__dirname,'../database/products.json'), JSON.stringify(products), (err) => {
+        fs.writeFile(path.join(__dirname,'../database/products.json'), JSON.stringify(products, null, " "), (err) => {
         if (err) {
             res.send("Error"); 
             return;
         }
-        res.send("guardado"); 
-      
+        res.render(path.join(__dirname, "../views/index")) ;
     })
+    
     }
+
+    const deleteProduct = (req,res) => {
+        const  id = req.params.id;
+         const finalProducts = products.filter(product => product.id !== id);
+         console.log(finalProducts);
+    /*      fs.writeFileSync(path.join(__dirname,'../database/products.json'), JSON.stringify(finalProducts, null, " "), (err) => {
+             if (err) {
+                 res.send("Error"); 
+                 return;
+             }
+             res.render(path.join(__dirname, "../views/productEdit"),{finalUsers});
+         }); */
+     }
+     
+    
 
 
 module.exports = {
@@ -88,5 +97,6 @@ module.exports = {
     createProduct,
     detailProduct,
     productConfirm,
-    productEdit
+    productEdit,
+    deleteProduct
 }
