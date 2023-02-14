@@ -198,5 +198,45 @@
   "telefono": "Customer",
   "direccion": "Apt 1044",
   "avatar": "/images/avatars/pretzel.jpg"
+ },
+ {
+  "id": 21,
+  "nombre": "",
+  "apellido": "",
+  "email": "",
+  "password": "",
+  "telefono": "",
+  "direccion": "",
+  "img": "ìmages/imgusers/avatar1676340765027.png"
+ },
+ {
+  "id": 22,
+  "nombre": "",
+  "apellido": "",
+  "email": "",
+  "password": "",
+  "telefono": "",
+  "direccion": "",
+  "img": "ìmages/imgusers/avatar1676340906432.png"
+ },
+ {
+  "id": 23,
+  "nombre": "",
+  "apellido": "",
+  "email": "",
+  "password": "",
+  "telefono": "",
+  "direccion": "",
+  "img": "ìmages/imgusers/avatar1676340940458.png"
+ },
+ {
+  "id": 24,
+  "nombre": "JUGO VERDE",
+  "apellido": "prueba1",
+  "email": "ddd@gmail.com",
+  "password": "122",
+  "telefono": "ddd",
+  "direccion": "ddd",
+  "img": "ìmages/imgusers/avatar1676345291582.png"
  }
 ]

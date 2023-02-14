@@ -25,7 +25,7 @@ routerProducts.post("/createproduct/new", upload.single("imagen"), createProduct
 routerProducts.get( "/product/detail/:id", detailProduct); /* muestra el detail de un producto en particular */
 routerProducts.get( "/products/edit/:id", productEdit); /* formulario de edicion */
 routerProducts.put("/products/edit/:id", productConfirm); /*accion de editar producto, a donde vviaja */
-routerProducts.delete("/products/edit/:id ", deleteProduct);     /* fomrulario de delete  */
+routerProducts.delete("/products/delete/:id", deleteProduct);     /* fomrulario de delete  */
 
 
 
