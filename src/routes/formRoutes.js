@@ -7,12 +7,11 @@ const {formLogin, login,register,formRegister} = require("../controllers/formCon
 /* const router = require("./"); */
 
 const validations = [
-    body("nombre").isEmpty().withMessage("Poner nombre de usuario").bail(),
-    body("apellido").isEmpty().withMessage("Poner apellido").bail(),
-    body("email").isEmpty().withMessage("E-mail requerido").bail(),
-    body("telefono").isEmpty().withMessage("Telefono requerido").bail(),
-    body("direccion").isEmpty().withMessage("Direccion requerida")
-    
+    body("nombre").notEmpty().withMessage("Poner nombre de usuario"),
+    body("apellido").notEmpty().withMessage("Poner apellido"),
+    body("email").notEmpty().withMessage("E-mail requerido"),
+    body("telefono").notEmpty().withMessage("Telefono requerido"),
+    body("direccion").notEmpty().withMessage("Direccion requerida"),  
 ]
 
 let storage = multer.diskStorage({
@@ -35,7 +34,7 @@ routerForm.post("/login", formLogin);
 
 /* formularios de registros-rutas */
 routerForm.get("/register", register);
-routerForm.post("/register/newuser",validations, upload.single("avatar"), formRegister); 
+routerForm.post("/register/newuser",upload.single("avatar"),validations, formRegister); 
 
 
 

@@ -201,42 +201,42 @@
  },
  {
   "id": 21,
-  "nombre": "JUGO VERDE",
-  "apellido": "prueba1",
-  "email": "tavobz94@gmail.com",
-  "password": "sss",
-  "telefono": "sss",
-  "direccion": "ssss",
-  "img": "ìmages/imgusers/avatar1675962789084.png"
+  "nombre": "",
+  "apellido": "",
+  "email": "",
+  "password": "",
+  "telefono": "",
+  "direccion": "",
+  "img": "ìmages/imgusers/avatar1676340765027.png"
  },
  {
   "id": 22,
-  "nombre": "JUGO VERDE",
-  "apellido": "prueba1",
-  "email": "tavobz94@gmail.com",
-  "password": "sss",
-  "telefono": "sss",
-  "direccion": "ssss",
-  "img": "ìmages/imgusers/avatar1675962803810.png"
+  "nombre": "",
+  "apellido": "",
+  "email": "",
+  "password": "",
+  "telefono": "",
+  "direccion": "",
+  "img": "ìmages/imgusers/avatar1676340906432.png"
  },
  {
   "id": 23,
-  "nombre": "JUGO VERDE",
-  "apellido": "prueba1",
-  "email": "tavobz94@gmail.com",
+  "nombre": "",
+  "apellido": "",
+  "email": "",
   "password": "",
-  "telefono": "sss",
-  "direccion": "ssss",
-  "img": "ìmages/imgusers/avatar1675962845995.png"
+  "telefono": "",
+  "direccion": "",
+  "img": "ìmages/imgusers/avatar1676340940458.png"
  },
  {
   "id": 24,
   "nombre": "JUGO VERDE",
   "apellido": "prueba1",
-  "email": "tavobz94@gmail.com",
-  "password": "dddd",
-  "telefono": "ddddd",
-  "direccion": "ddddd",
-  "img": "ìmages/imgusers/avatar1676310856723.png"
+  "email": "ddd@gmail.com",
+  "password": "122",
+  "telefono": "ddd",
+  "direccion": "ddd",
+  "img": "ìmages/imgusers/avatar1676345291582.png"
  }
 ]

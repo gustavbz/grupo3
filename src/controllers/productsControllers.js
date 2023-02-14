@@ -77,15 +77,15 @@ const detailProduct = (req,res)=>{
 
     const deleteProduct = (req,res) => {
         const  id = req.params.id;
-         const finalProducts = products.filter(product => product.id !== id);
-         console.log(finalProducts);
-    /*      fs.writeFileSync(path.join(__dirname,'../database/products.json'), JSON.stringify(finalProducts, null, " "), (err) => {
+         const finalProducts = products.filter(product => product.id !== parseInt(id));
+           fs.writeFileSync(path.join(__dirname,'../database/products.json'), JSON.stringify(finalProducts, null, " "), (err) => {
              if (err) {
                  res.send("Error"); 
                  return;
              }
-             res.render(path.join(__dirname, "../views/productEdit"),{finalUsers});
-         }); */
+           
+         });
+         res.render(path.join(__dirname, "../views/allProducts"),{products}); 
      }
      
     
